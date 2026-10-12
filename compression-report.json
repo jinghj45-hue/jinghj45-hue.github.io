@@ -1,0 +1,1908 @@
+{
+  "files": [
+    {
+      "file": "assets/2024zanhui/event-2.mp4",
+      "output": "assets/2024zanhui/event-2.mp4",
+      "before": 4834350,
+      "after": 4834350
+    },
+    {
+      "file": "assets/2024zanhui/event.mp4",
+      "output": "assets/2024zanhui/event.mp4",
+      "before": 2987205,
+      "after": 2987205
+    },
+    {
+      "file": "assets/2024zanhui/img_2024zanhui_1.png",
+      "output": "assets/2024zanhui/img_2024zanhui_1.webp",
+      "before": 13158460,
+      "after": 835240
+    },
+    {
+      "file": "assets/2024zanhui/img_2024zanhui_10.png",
+      "output": "assets/2024zanhui/img_2024zanhui_10.webp",
+      "before": 937546,
+      "after": 194422
+    },
+    {
+      "file": "assets/2024zanhui/img_2024zanhui_11.png",
+      "output": "assets/2024zanhui/img_2024zanhui_11.webp",
+      "before": 650557,
+      "after": 143118
+    },
+    {
+      "file": "assets/2024zanhui/img_2024zanhui_12.png",
+      "output": "assets/2024zanhui/img_2024zanhui_12.webp",
+      "before": 751540,
+      "after": 141708
+    },
+    {
+      "file": "assets/2024zanhui/img_2024zanhui_2.png",
+      "output": "assets/2024zanhui/img_2024zanhui_2.webp",
+      "before": 8649107,
+      "after": 650388
+    },
+    {
+      "file": "assets/2024zanhui/img_2024zanhui_3.png",
+      "output": "assets/2024zanhui/img_2024zanhui_3.webp",
+      "before": 11018324,
+      "after": 787196
+    },
+    {
+      "file": "assets/2024zanhui/img_2024zanhui_4.png",
+      "output": "assets/2024zanhui/img_2024zanhui_4.webp",
+      "before": 11971144,
+      "after": 840152
+    },
+    {
+      "file": "assets/2024zanhui/img_2024zanhui_5.png",
+      "output": "assets/2024zanhui/img_2024zanhui_5.webp",
+      "before": 14768341,
+      "after": 1163214
+    },
+    {
+      "file": "assets/2024zanhui/img_2024zanhui_6.png",
+      "output": "assets/2024zanhui/img_2024zanhui_6.webp",
+      "before": 4825958,
+      "after": 548378
+    },
+    {
+      "file": "assets/2024zanhui/img_2024zanhui_7.png",
+      "output": "assets/2024zanhui/img_2024zanhui_7.webp",
+      "before": 633068,
+      "after": 127728
+    },
+    {
+      "file": "assets/2024zanhui/img_2024zanhui_8.png",
+      "output": "assets/2024zanhui/img_2024zanhui_8.webp",
+      "before": 846863,
+      "after": 156180
+    },
+    {
+      "file": "assets/2024zanhui/img_2024zanhui_9.png",
+      "output": "assets/2024zanhui/img_2024zanhui_9.webp",
+      "before": 534554,
+      "after": 117038
+    },
+    {
+      "file": "assets/aiwonderland/img_aiwonderland_1.png",
+      "output": "assets/aiwonderland/img_aiwonderland_1.webp",
+      "before": 3427513,
+      "after": 461844
+    },
+    {
+      "file": "assets/card_overlay.png",
+      "output": "assets/card_overlay.webp",
+      "before": 9711,
+      "after": 5154
+    },
+    {
+      "file": "assets/chondian/img_chondian_1.png",
+      "output": "assets/chondian/img_chondian_1.webp",
+      "before": 10651491,
+      "after": 1245092
+    },
+    {
+      "file": "assets/chondian/img_chondian_2.png",
+      "output": "assets/chondian/img_chondian_2.webp",
+      "before": 8382299,
+      "after": 873522
+    },
+    {
+      "file": "assets/chondian/img_chondian_3.png",
+      "output": "assets/chondian/img_chondian_3.webp",
+      "before": 251043,
+      "after": 246158
+    },
+    {
+      "file": "assets/chondian/img_chondian_4.png",
+      "output": "assets/chondian/img_chondian_4.webp",
+      "before": 514879,
+      "after": 395364
+    },
+    {
+      "file": "assets/chondian/img_chondian_5.png",
+      "output": "assets/chondian/img_chondian_5.webp",
+      "before": 496871,
+      "after": 402354
+    },
+    {
+      "file": "assets/dock_back.svg",
+      "output": "assets/dock_back.svg",
+      "before": 1411,
+      "after": 1411
+    },
+    {
+      "file": "assets/dock_folder.svg",
+      "output": "assets/dock_folder.svg",
+      "before": 782,
+      "after": 782
+    },
+    {
+      "file": "assets/dock_folder_mask.svg",
+      "output": "assets/dock_folder_mask.svg",
+      "before": 237,
+      "after": 237
+    },
+    {
+      "file": "assets/dock_resume.svg",
+      "output": "assets/dock_resume.svg",
+      "before": 970,
+      "after": 970
+    },
+    {
+      "file": "assets/dock_top.svg",
+      "output": "assets/dock_top.svg",
+      "before": 1953,
+      "after": 1953
+    },
+    {
+      "file": "assets/exhibitions/intro.png",
+      "output": "assets/exhibitions/intro.webp",
+      "before": 1416194,
+      "after": 236646
+    },
+    {
+      "file": "assets/fonts/AlibabaPuHuiTi-2-105-Heavy.ttf",
+      "output": "assets/fonts/AlibabaPuHuiTi-2-105-Heavy.ttf",
+      "before": 2035700,
+      "after": 2035700
+    },
+    {
+      "file": "assets/fonts/AlibabaPuHuiTi-2-55-Regular.ttf",
+      "output": "assets/fonts/AlibabaPuHuiTi-2-55-Regular.ttf",
+      "before": 8449680,
+      "after": 8449680
+    },
+    {
+      "file": "assets/fonts/README.md",
+      "output": "assets/fonts/README.md",
+      "before": 3046,
+      "after": 3046
+    },
+    {
+      "file": "assets/fonts/package.json",
+      "output": "assets/fonts/package.json",
+      "before": 823,
+      "after": 823
+    },
+    {
+      "file": "assets/footer_line.svg",
+      "output": "assets/footer_line.svg",
+      "before": 260,
+      "after": 260
+    },
+    {
+      "file": "assets/fruitip/img_fruitip_1.png",
+      "output": "assets/fruitip/img_fruitip_1.webp",
+      "before": 3091734,
+      "after": 430806
+    },
+    {
+      "file": "assets/fruitip/img_fruitip_2.png",
+      "output": "assets/fruitip/img_fruitip_2.webp",
+      "before": 3021699,
+      "after": 527726
+    },
+    {
+      "file": "assets/fruitip/img_fruitip_3.png",
+      "output": "assets/fruitip/img_fruitip_3.webp",
+      "before": 2904264,
+      "after": 512794
+    },
+    {
+      "file": "assets/fruitip/img_fruitip_4.png",
+      "output": "assets/fruitip/img_fruitip_4.webp",
+      "before": 2935368,
+      "after": 536256
+    },
+    {
+      "file": "assets/fruitip/img_fruitip_5.png",
+      "output": "assets/fruitip/img_fruitip_5.webp",
+      "before": 4504958,
+      "after": 682052
+    },
+    {
+      "file": "assets/game/img_game_1.png",
+      "output": "assets/game/img_game_1.webp",
+      "before": 3660897,
+      "after": 419002
+    },
+    {
+      "file": "assets/game/img_game_10.png",
+      "output": "assets/game/img_game_10.webp",
+      "before": 2461882,
+      "after": 420664
+    },
+    {
+      "file": "assets/game/img_game_11.png",
+      "output": "assets/game/img_game_11.webp",
+      "before": 1553110,
+      "after": 274172
+    },
+    {
+      "file": "assets/game/img_game_12.png",
+      "output": "assets/game/img_game_12.webp",
+      "before": 3951728,
+      "after": 550222
+    },
+    {
+      "file": "assets/game/img_game_13.png",
+      "output": "assets/game/img_game_13.webp",
+      "before": 4925838,
+      "after": 583202
+    },
+    {
+      "file": "assets/game/img_game_14.png",
+      "output": "assets/game/img_game_14.webp",
+      "before": 4825410,
+      "after": 601578
+    },
+    {
+      "file": "assets/game/img_game_15.png",
+      "output": "assets/game/img_game_15.webp",
+      "before": 4548207,
+      "after": 444298
+    },
+    {
+      "file": "assets/game/img_game_16.png",
+      "output": "assets/game/img_game_16.webp",
+      "before": 815338,
+      "after": 109228
+    },
+    {
+      "file": "assets/game/img_game_17.png",
+      "output": "assets/game/img_game_17.webp",
+      "before": 600266,
+      "after": 97228
+    },
+    {
+      "file": "assets/game/img_game_18.png",
+      "output": "assets/game/img_game_18.webp",
+      "before": 946785,
+      "after": 147184
+    },
+    {
+      "file": "assets/game/img_game_19.png",
+      "output": "assets/game/img_game_19.webp",
+      "before": 235824,
+      "after": 155124
+    },
+    {
+      "file": "assets/game/img_game_2.png",
+      "output": "assets/game/img_game_2.webp",
+      "before": 3702315,
+      "after": 499524
+    },
+    {
+      "file": "assets/game/img_game_20.png",
+      "output": "assets/game/img_game_20.webp",
+      "before": 828997,
+      "after": 141658
+    },
+    {
+      "file": "assets/game/img_game_21.png",
+      "output": "assets/game/img_game_21.webp",
+      "before": 793600,
+      "after": 127986
+    },
+    {
+      "file": "assets/game/img_game_22.png",
+      "output": "assets/game/img_game_22.webp",
+      "before": 698880,
+      "after": 102290
+    },
+    {
+      "file": "assets/game/img_game_23.png",
+      "output": "assets/game/img_game_23.webp",
+      "before": 847800,
+      "after": 134756
+    },
+    {
+      "file": "assets/game/img_game_24.png",
+      "output": "assets/game/img_game_24.webp",
+      "before": 835553,
+      "after": 118982
+    },
+    {
+      "file": "assets/game/img_game_25.png",
+      "output": "assets/game/img_game_25.webp",
+      "before": 735523,
+      "after": 89788
+    },
+    {
+      "file": "assets/game/img_game_26.png",
+      "output": "assets/game/img_game_26.webp",
+      "before": 2814371,
+      "after": 438196
+    },
+    {
+      "file": "assets/game/img_game_27.png",
+      "output": "assets/game/img_game_27.webp",
+      "before": 1811631,
+      "after": 216374
+    },
+    {
+      "file": "assets/game/img_game_28.png",
+      "output": "assets/game/img_game_28.webp",
+      "before": 2473824,
+      "after": 273710
+    },
+    {
+      "file": "assets/game/img_game_29.png",
+      "output": "assets/game/img_game_29.webp",
+      "before": 3019974,
+      "after": 451220
+    },
+    {
+      "file": "assets/game/img_game_3.png",
+      "output": "assets/game/img_game_3.webp",
+      "before": 1311231,
+      "after": 245742
+    },
+    {
+      "file": "assets/game/img_game_30.png",
+      "output": "assets/game/img_game_30.webp",
+      "before": 2376695,
+      "after": 362492
+    },
+    {
+      "file": "assets/game/img_game_4.png",
+      "output": "assets/game/img_game_4.webp",
+      "before": 1421056,
+      "after": 277588
+    },
+    {
+      "file": "assets/game/img_game_5.png",
+      "output": "assets/game/img_game_5.webp",
+      "before": 1389615,
+      "after": 255716
+    },
+    {
+      "file": "assets/game/img_game_6.png",
+      "output": "assets/game/img_game_6.webp",
+      "before": 2177360,
+      "after": 416484
+    },
+    {
+      "file": "assets/game/img_game_7.png",
+      "output": "assets/game/img_game_7.webp",
+      "before": 2742635,
+      "after": 447816
+    },
+    {
+      "file": "assets/game/img_game_8.png",
+      "output": "assets/game/img_game_8.webp",
+      "before": 1841988,
+      "after": 290146
+    },
+    {
+      "file": "assets/game/img_game_9.png",
+      "output": "assets/game/img_game_9.webp",
+      "before": 1946586,
+      "after": 334294
+    },
+    {
+      "file": "assets/game/motion/motion-1.mp4",
+      "output": "assets/game/motion/motion-1.mp4",
+      "before": 4020219,
+      "after": 256609
+    },
+    {
+      "file": "assets/game/motion/motion-2.mp4",
+      "output": "assets/game/motion/motion-2.mp4",
+      "before": 9560204,
+      "after": 355295
+    },
+    {
+      "file": "assets/game/motion/motion-3.mp4",
+      "output": "assets/game/motion/motion-3.mp4",
+      "before": 8748637,
+      "after": 380077
+    },
+    {
+      "file": "assets/game/motion/motion-4.mp4",
+      "output": "assets/game/motion/motion-4.mp4",
+      "before": 5986651,
+      "after": 779276
+    },
+    {
+      "file": "assets/game/motion/motion-5.mp4",
+      "output": "assets/game/motion/motion-5.mp4",
+      "before": 7408475,
+      "after": 198444
+    },
+    {
+      "file": "assets/game/motion/motion-6.mp4",
+      "output": "assets/game/motion/motion-6.mp4",
+      "before": 3356286,
+      "after": 250971
+    },
+    {
+      "file": "assets/gonpai2.0/img_gonpai2.0_1.png",
+      "output": "assets/gonpai2.0/img_gonpai2.0_1.webp",
+      "before": 844169,
+      "after": 204960
+    },
+    {
+      "file": "assets/gonpai2.0/img_gonpai2.0_10.png",
+      "output": "assets/gonpai2.0/img_gonpai2.0_10.webp",
+      "before": 638450,
+      "after": 114418
+    },
+    {
+      "file": "assets/gonpai2.0/img_gonpai2.0_2.png",
+      "output": "assets/gonpai2.0/img_gonpai2.0_2.webp",
+      "before": 1089026,
+      "after": 210228
+    },
+    {
+      "file": "assets/gonpai2.0/img_gonpai2.0_3.png",
+      "output": "assets/gonpai2.0/img_gonpai2.0_3.webp",
+      "before": 357413,
+      "after": 81896
+    },
+    {
+      "file": "assets/gonpai2.0/img_gonpai2.0_4.png",
+      "output": "assets/gonpai2.0/img_gonpai2.0_4.webp",
+      "before": 412037,
+      "after": 80982
+    },
+    {
+      "file": "assets/gonpai2.0/img_gonpai2.0_5.png",
+      "output": "assets/gonpai2.0/img_gonpai2.0_5.webp",
+      "before": 360836,
+      "after": 85096
+    },
+    {
+      "file": "assets/gonpai2.0/img_gonpai2.0_6.png",
+      "output": "assets/gonpai2.0/img_gonpai2.0_6.webp",
+      "before": 313874,
+      "after": 59066
+    },
+    {
+      "file": "assets/gonpai2.0/img_gonpai2.0_7.png",
+      "output": "assets/gonpai2.0/img_gonpai2.0_7.webp",
+      "before": 454482,
+      "after": 90564
+    },
+    {
+      "file": "assets/gonpai2.0/img_gonpai2.0_8.png",
+      "output": "assets/gonpai2.0/img_gonpai2.0_8.webp",
+      "before": 745796,
+      "after": 153932
+    },
+    {
+      "file": "assets/gonpai2.0/img_gonpai2.0_9.png",
+      "output": "assets/gonpai2.0/img_gonpai2.0_9.webp",
+      "before": 404076,
+      "after": 89972
+    },
+    {
+      "file": "assets/honbao/img_honbao_1.png",
+      "output": "assets/honbao/img_honbao_1.webp",
+      "before": 5411201,
+      "after": 875392
+    },
+    {
+      "file": "assets/honbao/img_honbao_2.png",
+      "output": "assets/honbao/img_honbao_2.webp",
+      "before": 2465125,
+      "after": 284818
+    },
+    {
+      "file": "assets/honbao/img_honbao_3.png",
+      "output": "assets/honbao/img_honbao_3.webp",
+      "before": 7690432,
+      "after": 1099440
+    },
+    {
+      "file": "assets/icon_ae.png",
+      "output": "assets/icon_ae.webp",
+      "before": 1929,
+      "after": 1364
+    },
+    {
+      "file": "assets/icon_ae@2x.png",
+      "output": "assets/icon_ae@2x.webp",
+      "before": 4865,
+      "after": 3520
+    },
+    {
+      "file": "assets/icon_ae@3x.png",
+      "output": "assets/icon_ae@3x.webp",
+      "before": 8752,
+      "after": 6026
+    },
+    {
+      "file": "assets/icon_ai.png",
+      "output": "assets/icon_ai.webp",
+      "before": 1798,
+      "after": 1340
+    },
+    {
+      "file": "assets/icon_ai@2x.png",
+      "output": "assets/icon_ai@2x.webp",
+      "before": 4611,
+      "after": 3414
+    },
+    {
+      "file": "assets/icon_ai@3x.png",
+      "output": "assets/icon_ai@3x.webp",
+      "before": 8268,
+      "after": 5858
+    },
+    {
+      "file": "assets/icon_blender.png",
+      "output": "assets/icon_blender.webp",
+      "before": 3087,
+      "after": 2016
+    },
+    {
+      "file": "assets/icon_blender@2x.png",
+      "output": "assets/icon_blender@2x.webp",
+      "before": 7339,
+      "after": 4706
+    },
+    {
+      "file": "assets/icon_blender@3x.png",
+      "output": "assets/icon_blender@3x.webp",
+      "before": 12610,
+      "after": 7746
+    },
+    {
+      "file": "assets/icon_dowm.png",
+      "output": "assets/icon_dowm.webp",
+      "before": 483,
+      "after": 536
+    },
+    {
+      "file": "assets/icon_dowm@2x.png",
+      "output": "assets/icon_dowm@2x.webp",
+      "before": 716,
+      "after": 756
+    },
+    {
+      "file": "assets/icon_dowm@3x.png",
+      "output": "assets/icon_dowm@3x.webp",
+      "before": 915,
+      "after": 824
+    },
+    {
+      "file": "assets/icon_drop.png",
+      "output": "assets/icon_drop.webp",
+      "before": 2212,
+      "after": 2200
+    },
+    {
+      "file": "assets/icon_drop@2x.png",
+      "output": "assets/icon_drop@2x.webp",
+      "before": 4585,
+      "after": 4326
+    },
+    {
+      "file": "assets/icon_drop@3x.png",
+      "output": "assets/icon_drop@3x.webp",
+      "before": 6788,
+      "after": 6206
+    },
+    {
+      "file": "assets/icon_email.png",
+      "output": "assets/icon_email.webp",
+      "before": 533,
+      "after": 408
+    },
+    {
+      "file": "assets/icon_email@2x.png",
+      "output": "assets/icon_email@2x.webp",
+      "before": 942,
+      "after": 828
+    },
+    {
+      "file": "assets/icon_email@3x.png",
+      "output": "assets/icon_email@3x.webp",
+      "before": 1289,
+      "after": 1180
+    },
+    {
+      "file": "assets/icon_figma.png",
+      "output": "assets/icon_figma.webp",
+      "before": 2495,
+      "after": 1730
+    },
+    {
+      "file": "assets/icon_figma@2x.png",
+      "output": "assets/icon_figma@2x.webp",
+      "before": 6238,
+      "after": 4058
+    },
+    {
+      "file": "assets/icon_figma@3x.png",
+      "output": "assets/icon_figma@3x.webp",
+      "before": 10650,
+      "after": 6504
+    },
+    {
+      "file": "assets/icon_headphones.png",
+      "output": "assets/icon_headphones.webp",
+      "before": 48388,
+      "after": 15220
+    },
+    {
+      "file": "assets/icon_headphones@2x.png",
+      "output": "assets/icon_headphones@2x.webp",
+      "before": 150938,
+      "after": 44254
+    },
+    {
+      "file": "assets/icon_headphones@3x.png",
+      "output": "assets/icon_headphones@3x.webp",
+      "before": 287059,
+      "after": 87356
+    },
+    {
+      "file": "assets/icon_iocation.png",
+      "output": "assets/icon_iocation.webp",
+      "before": 417,
+      "after": 356
+    },
+    {
+      "file": "assets/icon_iocation@2x.png",
+      "output": "assets/icon_iocation@2x.webp",
+      "before": 679,
+      "after": 632
+    },
+    {
+      "file": "assets/icon_iocation@3x.png",
+      "output": "assets/icon_iocation@3x.webp",
+      "before": 909,
+      "after": 800
+    },
+    {
+      "file": "assets/icon_more.png",
+      "output": "assets/icon_more.webp",
+      "before": 331,
+      "after": 404
+    },
+    {
+      "file": "assets/icon_mouse.png",
+      "output": "assets/icon_mouse.webp",
+      "before": 16156,
+      "after": 5344
+    },
+    {
+      "file": "assets/icon_mouse@2x.png",
+      "output": "assets/icon_mouse@2x.webp",
+      "before": 48323,
+      "after": 14550
+    },
+    {
+      "file": "assets/icon_mouse@3x.png",
+      "output": "assets/icon_mouse@3x.webp",
+      "before": 99096,
+      "after": 27692
+    },
+    {
+      "file": "assets/icon_notebook.png",
+      "output": "assets/icon_notebook.webp",
+      "before": 95715,
+      "after": 26802
+    },
+    {
+      "file": "assets/icon_notebook@2x.png",
+      "output": "assets/icon_notebook@2x.webp",
+      "before": 329500,
+      "after": 80068
+    },
+    {
+      "file": "assets/icon_notebook@3x.png",
+      "output": "assets/icon_notebook@3x.webp",
+      "before": 685490,
+      "after": 150370
+    },
+    {
+      "file": "assets/icon_number.png",
+      "output": "assets/icon_number.webp",
+      "before": 610,
+      "after": 532
+    },
+    {
+      "file": "assets/icon_number@2x.png",
+      "output": "assets/icon_number@2x.webp",
+      "before": 1039,
+      "after": 860
+    },
+    {
+      "file": "assets/icon_number@3x.png",
+      "output": "assets/icon_number@3x.webp",
+      "before": 1404,
+      "after": 1206
+    },
+    {
+      "file": "assets/icon_pc.png",
+      "output": "assets/icon_pc.webp",
+      "before": 288025,
+      "after": 57376
+    },
+    {
+      "file": "assets/icon_pc@2x.png",
+      "output": "assets/icon_pc@2x.webp",
+      "before": 969697,
+      "after": 166970
+    },
+    {
+      "file": "assets/icon_pc@3x.png",
+      "output": "assets/icon_pc@3x.webp",
+      "before": 1884821,
+      "after": 302432
+    },
+    {
+      "file": "assets/icon_pencil.png",
+      "output": "assets/icon_pencil.webp",
+      "before": 6045,
+      "after": 3630
+    },
+    {
+      "file": "assets/icon_pencil@2x.png",
+      "output": "assets/icon_pencil@2x.webp",
+      "before": 18972,
+      "after": 9868
+    },
+    {
+      "file": "assets/icon_pencil@3x.png",
+      "output": "assets/icon_pencil@3x.webp",
+      "before": 38503,
+      "after": 18884
+    },
+    {
+      "file": "assets/icon_personal.png",
+      "output": "assets/icon_personal.webp",
+      "before": 617,
+      "after": 812
+    },
+    {
+      "file": "assets/icon_personal@2x.png",
+      "output": "assets/icon_personal@2x.webp",
+      "before": 1223,
+      "after": 1368
+    },
+    {
+      "file": "assets/icon_personal@3x.png",
+      "output": "assets/icon_personal@3x.webp",
+      "before": 1800,
+      "after": 1934
+    },
+    {
+      "file": "assets/icon_project.png",
+      "output": "assets/icon_project.webp",
+      "before": 399,
+      "after": 428
+    },
+    {
+      "file": "assets/icon_project@2x.png",
+      "output": "assets/icon_project@2x.webp",
+      "before": 670,
+      "after": 664
+    },
+    {
+      "file": "assets/icon_project@3x.png",
+      "output": "assets/icon_project@3x.webp",
+      "before": 983,
+      "after": 854
+    },
+    {
+      "file": "assets/icon_ps.png",
+      "output": "assets/icon_ps.webp",
+      "before": 1853,
+      "after": 1352
+    },
+    {
+      "file": "assets/icon_ps@2x.png",
+      "output": "assets/icon_ps@2x.webp",
+      "before": 4708,
+      "after": 3514
+    },
+    {
+      "file": "assets/icon_ps@3x.png",
+      "output": "assets/icon_ps@3x.webp",
+      "before": 8508,
+      "after": 6018
+    },
+    {
+      "file": "assets/icon_top.png",
+      "output": "assets/icon_top.webp",
+      "before": 522,
+      "after": 758
+    },
+    {
+      "file": "assets/icon_top@2x.png",
+      "output": "assets/icon_top@2x.webp",
+      "before": 962,
+      "after": 1242
+    },
+    {
+      "file": "assets/icon_top@3x.png",
+      "output": "assets/icon_top@3x.webp",
+      "before": 1349,
+      "after": 1716
+    },
+    {
+      "file": "assets/img_banner_2024zanhui.png",
+      "output": "assets/img_banner_2024zanhui.webp",
+      "before": 142276,
+      "after": 31166
+    },
+    {
+      "file": "assets/img_banner_2024zanhui@2x.png",
+      "output": "assets/img_banner_2024zanhui@2x.webp",
+      "before": 498656,
+      "after": 87606
+    },
+    {
+      "file": "assets/img_banner_2024zanhui@3x.png",
+      "output": "assets/img_banner_2024zanhui@3x.webp",
+      "before": 1141302,
+      "after": 155654
+    },
+    {
+      "file": "assets/img_banner_aiwonderland.png",
+      "output": "assets/img_banner_aiwonderland.webp",
+      "before": 84154,
+      "after": 17946
+    },
+    {
+      "file": "assets/img_banner_aiwonderland@2x.png",
+      "output": "assets/img_banner_aiwonderland@2x.webp",
+      "before": 281397,
+      "after": 50686
+    },
+    {
+      "file": "assets/img_banner_aiwonderland@3x.png",
+      "output": "assets/img_banner_aiwonderland@3x.webp",
+      "before": 576542,
+      "after": 93932
+    },
+    {
+      "file": "assets/img_banner_bg.png",
+      "output": "assets/img_banner_bg.webp",
+      "before": 549684,
+      "after": 67482
+    },
+    {
+      "file": "assets/img_banner_bg@2x.png",
+      "output": "assets/img_banner_bg@2x.webp",
+      "before": 1871423,
+      "after": 236428
+    },
+    {
+      "file": "assets/img_banner_bg@3x.png",
+      "output": "assets/img_banner_bg@3x.webp",
+      "before": 3603341,
+      "after": 531516
+    },
+    {
+      "file": "assets/img_banner_chondian.png",
+      "output": "assets/img_banner_chondian.webp",
+      "before": 156134,
+      "after": 41210
+    },
+    {
+      "file": "assets/img_banner_chondian@2x.png",
+      "output": "assets/img_banner_chondian@2x.webp",
+      "before": 546084,
+      "after": 133636
+    },
+    {
+      "file": "assets/img_banner_chondian@3x.png",
+      "output": "assets/img_banner_chondian@3x.webp",
+      "before": 1146689,
+      "after": 248170
+    },
+    {
+      "file": "assets/img_banner_fruitip.png",
+      "output": "assets/img_banner_fruitip.webp",
+      "before": 99208,
+      "after": 33624
+    },
+    {
+      "file": "assets/img_banner_fruitip@2x.png",
+      "output": "assets/img_banner_fruitip@2x.webp",
+      "before": 283163,
+      "after": 86182
+    },
+    {
+      "file": "assets/img_banner_fruitip@3x.png",
+      "output": "assets/img_banner_fruitip@3x.webp",
+      "before": 539873,
+      "after": 146146
+    },
+    {
+      "file": "assets/img_banner_game.png",
+      "output": "assets/img_banner_game.webp",
+      "before": 148051,
+      "after": 22736
+    },
+    {
+      "file": "assets/img_banner_game@2x.png",
+      "output": "assets/img_banner_game@2x.webp",
+      "before": 559416,
+      "after": 81160
+    },
+    {
+      "file": "assets/img_banner_game@3x.png",
+      "output": "assets/img_banner_game@3x.webp",
+      "before": 1176503,
+      "after": 172942
+    },
+    {
+      "file": "assets/img_banner_gonpai2.0.png",
+      "output": "assets/img_banner_gonpai2.0.webp",
+      "before": 164164,
+      "after": 17468
+    },
+    {
+      "file": "assets/img_banner_gonpai2.0@2x.png",
+      "output": "assets/img_banner_gonpai2.0@2x.webp",
+      "before": 581982,
+      "after": 52722
+    },
+    {
+      "file": "assets/img_banner_gonpai2.0@3x.png",
+      "output": "assets/img_banner_gonpai2.0@3x.webp",
+      "before": 1122991,
+      "after": 92652
+    },
+    {
+      "file": "assets/img_banner_honbao.png",
+      "output": "assets/img_banner_honbao.webp",
+      "before": 168199,
+      "after": 25482
+    },
+    {
+      "file": "assets/img_banner_honbao@2x.png",
+      "output": "assets/img_banner_honbao@2x.webp",
+      "before": 623923,
+      "after": 82270
+    },
+    {
+      "file": "assets/img_banner_honbao@3x.png",
+      "output": "assets/img_banner_honbao@3x.webp",
+      "before": 1368037,
+      "after": 167036
+    },
+    {
+      "file": "assets/img_banner_juguang.png",
+      "output": "assets/img_banner_juguang.webp",
+      "before": 140164,
+      "after": 35266
+    },
+    {
+      "file": "assets/img_banner_juguang@2x.png",
+      "output": "assets/img_banner_juguang@2x.webp",
+      "before": 487912,
+      "after": 123564
+    },
+    {
+      "file": "assets/img_banner_juguang@3x.png",
+      "output": "assets/img_banner_juguang@3x.webp",
+      "before": 1045518,
+      "after": 239224
+    },
+    {
+      "file": "assets/img_banner_lansha7.png",
+      "output": "assets/img_banner_lansha7.webp",
+      "before": 81405,
+      "after": 37180
+    },
+    {
+      "file": "assets/img_banner_manju.png",
+      "output": "assets/img_banner_manju.webp",
+      "before": 147123,
+      "after": 34374
+    },
+    {
+      "file": "assets/img_banner_manju@2x.png",
+      "output": "assets/img_banner_manju@2x.webp",
+      "before": 541476,
+      "after": 116186
+    },
+    {
+      "file": "assets/img_banner_manju@3x.png",
+      "output": "assets/img_banner_manju@3x.webp",
+      "before": 1163825,
+      "after": 232710
+    },
+    {
+      "file": "assets/img_banner_mianshi.png",
+      "output": "assets/img_banner_mianshi.webp",
+      "before": 147558,
+      "after": 30258
+    },
+    {
+      "file": "assets/img_banner_mianshi@2x.png",
+      "output": "assets/img_banner_mianshi@2x.webp",
+      "before": 556617,
+      "after": 91250
+    },
+    {
+      "file": "assets/img_banner_mianshi@3x.png",
+      "output": "assets/img_banner_mianshi@3x.webp",
+      "before": 1180992,
+      "after": 158608
+    },
+    {
+      "file": "assets/img_banner_pinan.png",
+      "output": "assets/img_banner_pinan.webp",
+      "before": 586412,
+      "after": 74226
+    },
+    {
+      "file": "assets/img_banner_school.png",
+      "output": "assets/img_banner_school.webp",
+      "before": 159624,
+      "after": 36834
+    },
+    {
+      "file": "assets/img_banner_school_hd.png",
+      "output": "assets/img_banner_school_hd.webp",
+      "before": 617544,
+      "after": 137026
+    },
+    {
+      "file": "assets/img_banner_school_new.png",
+      "output": "assets/img_banner_school_new.webp",
+      "before": 173241,
+      "after": 42672
+    },
+    {
+      "file": "assets/img_banner_shipinzanhui.png",
+      "output": "assets/img_banner_shipinzanhui.webp",
+      "before": 98847,
+      "after": 12574
+    },
+    {
+      "file": "assets/img_banner_shipinzanhui@2x.png",
+      "output": "assets/img_banner_shipinzanhui@2x.webp",
+      "before": 387224,
+      "after": 37584
+    },
+    {
+      "file": "assets/img_banner_shipinzanhui@3x.png",
+      "output": "assets/img_banner_shipinzanhui@3x.webp",
+      "before": 850391,
+      "after": 76558
+    },
+    {
+      "file": "assets/img_banner_tuitui.png",
+      "output": "assets/img_banner_tuitui.webp",
+      "before": 60275,
+      "after": 11902
+    },
+    {
+      "file": "assets/img_banner_tuitui@2x.png",
+      "output": "assets/img_banner_tuitui@2x.webp",
+      "before": 229938,
+      "after": 30366
+    },
+    {
+      "file": "assets/img_banner_tuitui@3x.png",
+      "output": "assets/img_banner_tuitui@3x.webp",
+      "before": 505079,
+      "after": 56786
+    },
+    {
+      "file": "assets/img_banner_web3.png",
+      "output": "assets/img_banner_web3.webp",
+      "before": 152317,
+      "after": 34602
+    },
+    {
+      "file": "assets/img_banner_web3@2x.png",
+      "output": "assets/img_banner_web3@2x.webp",
+      "before": 559863,
+      "after": 97798
+    },
+    {
+      "file": "assets/img_banner_web3@3x.png",
+      "output": "assets/img_banner_web3@3x.webp",
+      "before": 1200711,
+      "after": 181402
+    },
+    {
+      "file": "assets/img_banner_xiaoqin.png",
+      "output": "assets/img_banner_xiaoqin.webp",
+      "before": 167115,
+      "after": 41702
+    },
+    {
+      "file": "assets/img_banner_xiaoqin@2x.png",
+      "output": "assets/img_banner_xiaoqin@2x.webp",
+      "before": 600527,
+      "after": 129514
+    },
+    {
+      "file": "assets/img_banner_xiaoqin@3x.png",
+      "output": "assets/img_banner_xiaoqin@3x.webp",
+      "before": 1279509,
+      "after": 257150
+    },
+    {
+      "file": "assets/img_banner_zhitou.png",
+      "output": "assets/img_banner_zhitou.webp",
+      "before": 135565,
+      "after": 18914
+    },
+    {
+      "file": "assets/img_banner_zhitou@2x.png",
+      "output": "assets/img_banner_zhitou@2x.webp",
+      "before": 520317,
+      "after": 61100
+    },
+    {
+      "file": "assets/img_banner_zhitou@3x.png",
+      "output": "assets/img_banner_zhitou@3x.webp",
+      "before": 1083118,
+      "after": 109418
+    },
+    {
+      "file": "assets/img_name.svg",
+      "output": "assets/img_name.svg",
+      "before": 7387,
+      "after": 7387
+    },
+    {
+      "file": "assets/img_photo.png",
+      "output": "assets/img_photo.webp",
+      "before": 57870,
+      "after": 11078
+    },
+    {
+      "file": "assets/img_photo@2x.png",
+      "output": "assets/img_photo@2x.webp",
+      "before": 197275,
+      "after": 30132
+    },
+    {
+      "file": "assets/img_photo@3x.png",
+      "output": "assets/img_photo@3x.webp",
+      "before": 405946,
+      "after": 52800
+    },
+    {
+      "file": "assets/juguang/img_juguang_1.png",
+      "output": "assets/juguang/img_juguang_1.webp",
+      "before": 891792,
+      "after": 104778
+    },
+    {
+      "file": "assets/juguang/img_juguang_2.png",
+      "output": "assets/juguang/img_juguang_2.webp",
+      "before": 123533,
+      "after": 109104
+    },
+    {
+      "file": "assets/juguang/img_juguang_3.png",
+      "output": "assets/juguang/img_juguang_3.webp",
+      "before": 116362,
+      "after": 106892
+    },
+    {
+      "file": "assets/juguang/img_juguang_4.png",
+      "output": "assets/juguang/img_juguang_4.webp",
+      "before": 119103,
+      "after": 103992
+    },
+    {
+      "file": "assets/juguang/img_juguang_5.png",
+      "output": "assets/juguang/img_juguang_5.webp",
+      "before": 294197,
+      "after": 139590
+    },
+    {
+      "file": "assets/juguang/img_juguang_6.png",
+      "output": "assets/juguang/img_juguang_6.webp",
+      "before": 108505,
+      "after": 86004
+    },
+    {
+      "file": "assets/juguang/img_juguang_7.png",
+      "output": "assets/juguang/img_juguang_7.webp",
+      "before": 147546,
+      "after": 102934
+    },
+    {
+      "file": "assets/juguang/img_juguang_8.png",
+      "output": "assets/juguang/img_juguang_8.webp",
+      "before": 143141,
+      "after": 117730
+    },
+    {
+      "file": "assets/juguang/img_juguang_9.png",
+      "output": "assets/juguang/img_juguang_9.webp",
+      "before": 102971,
+      "after": 83876
+    },
+    {
+      "file": "assets/lansha7/img_lansha7_1.png",
+      "output": "assets/lansha7/img_lansha7_1.webp",
+      "before": 927401,
+      "after": 142846
+    },
+    {
+      "file": "assets/lansha7/img_lansha7_2.png",
+      "output": "assets/lansha7/img_lansha7_2.webp",
+      "before": 4370149,
+      "after": 511572
+    },
+    {
+      "file": "assets/lansha7/img_lansha7_3.png",
+      "output": "assets/lansha7/img_lansha7_3.webp",
+      "before": 4985569,
+      "after": 636168
+    },
+    {
+      "file": "assets/lansha7/img_lansha7_4.png",
+      "output": "assets/lansha7/img_lansha7_4.webp",
+      "before": 3642438,
+      "after": 646650
+    },
+    {
+      "file": "assets/lansha7/img_lansha7_5.png",
+      "output": "assets/lansha7/img_lansha7_5.webp",
+      "before": 4011552,
+      "after": 498034
+    },
+    {
+      "file": "assets/lansha7/img_lansha7_6.png",
+      "output": "assets/lansha7/img_lansha7_6.webp",
+      "before": 3309209,
+      "after": 500936
+    },
+    {
+      "file": "assets/lansha7/img_lansha7_7.png",
+      "output": "assets/lansha7/img_lansha7_7.webp",
+      "before": 5053464,
+      "after": 708916
+    },
+    {
+      "file": "assets/manju/img_manju_1.png",
+      "output": "assets/manju/img_manju_1.webp",
+      "before": 1416194,
+      "after": 236646
+    },
+    {
+      "file": "assets/manju/img_manju_2.png",
+      "output": "assets/manju/img_manju_2.webp",
+      "before": 2341189,
+      "after": 426888
+    },
+    {
+      "file": "assets/manju/img_manju_3.png",
+      "output": "assets/manju/img_manju_3.webp",
+      "before": 100341,
+      "after": 123806
+    },
+    {
+      "file": "assets/manju/img_manju_4.png",
+      "output": "assets/manju/img_manju_4.webp",
+      "before": 125773,
+      "after": 121562
+    },
+    {
+      "file": "assets/manju/img_manju_5.png",
+      "output": "assets/manju/img_manju_5.webp",
+      "before": 1054038,
+      "after": 249448
+    },
+    {
+      "file": "assets/manju/img_manju_6.png",
+      "output": "assets/manju/img_manju_6.webp",
+      "before": 928079,
+      "after": 176536
+    },
+    {
+      "file": "assets/manju/img_manju_7.png",
+      "output": "assets/manju/img_manju_7.webp",
+      "before": 756155,
+      "after": 155628
+    },
+    {
+      "file": "assets/manju/img_manju_8.png",
+      "output": "assets/manju/img_manju_8.webp",
+      "before": 459105,
+      "after": 124390
+    },
+    {
+      "file": "assets/manju/login.mp4",
+      "output": "assets/manju/login.mp4",
+      "before": 24183544,
+      "after": 3321459
+    },
+    {
+      "file": "assets/mianshi/img_mianshi_1.png",
+      "output": "assets/mianshi/img_mianshi_1.webp",
+      "before": 1136476,
+      "after": 147624
+    },
+    {
+      "file": "assets/mianshi/img_mianshi_2.png",
+      "output": "assets/mianshi/img_mianshi_2.webp",
+      "before": 658662,
+      "after": 129038
+    },
+    {
+      "file": "assets/mianshi/img_mianshi_3.png",
+      "output": "assets/mianshi/img_mianshi_3.webp",
+      "before": 658787,
+      "after": 130178
+    },
+    {
+      "file": "assets/mianshi/img_mianshi_4.png",
+      "output": "assets/mianshi/img_mianshi_4.webp",
+      "before": 1581088,
+      "after": 274722
+    },
+    {
+      "file": "assets/mianshi/img_mianshi_5.png",
+      "output": "assets/mianshi/img_mianshi_5.webp",
+      "before": 822693,
+      "after": 141130
+    },
+    {
+      "file": "assets/mianshi/img_mianshi_6.png",
+      "output": "assets/mianshi/img_mianshi_6.webp",
+      "before": 743644,
+      "after": 141620
+    },
+    {
+      "file": "assets/mianshi/motion-1.mp4",
+      "output": "assets/mianshi/motion-1.mp4",
+      "before": 1287234,
+      "after": 1278899
+    },
+    {
+      "file": "assets/mianshi/motion-2.mp4",
+      "output": "assets/mianshi/motion-2.mp4",
+      "before": 2002661,
+      "after": 1515501
+    },
+    {
+      "file": "assets/mianshi/motion-3.mp4",
+      "output": "assets/mianshi/motion-3.mp4",
+      "before": 1267028,
+      "after": 245714
+    },
+    {
+      "file": "assets/personal/REACT-BITS-LICENSE.md",
+      "output": "assets/personal/REACT-BITS-LICENSE.md",
+      "before": 1303,
+      "after": 1303
+    },
+    {
+      "file": "assets/personal/back.svg",
+      "output": "assets/personal/back.svg",
+      "before": 1413,
+      "after": 1413
+    },
+    {
+      "file": "assets/personal/card-back-jing.png",
+      "output": "assets/personal/card-back-jing.webp",
+      "before": 7818,
+      "after": 4920
+    },
+    {
+      "file": "assets/personal/card-front-jing.png",
+      "output": "assets/personal/card-front-jing.webp",
+      "before": 166192,
+      "after": 36750
+    },
+    {
+      "file": "assets/personal/folder-mask.svg",
+      "output": "assets/personal/folder-mask.svg",
+      "before": 237,
+      "after": 237
+    },
+    {
+      "file": "assets/personal/folder.svg",
+      "output": "assets/personal/folder.svg",
+      "before": 782,
+      "after": 782
+    },
+    {
+      "file": "assets/personal/lanyard.bundle.css",
+      "output": "assets/personal/lanyard.bundle.css",
+      "before": 120,
+      "after": 121
+    },
+    {
+      "file": "assets/personal/lanyard.bundle.js",
+      "output": "assets/personal/lanyard.bundle.js",
+      "before": 742987,
+      "after": 746932
+    },
+    {
+      "file": "assets/personal/lanyard.bundle.js.LEGAL.txt",
+      "output": "assets/personal/lanyard.bundle.js.LEGAL.txt",
+      "before": 1687,
+      "after": 1687
+    },
+    {
+      "file": "assets/personal/personal.svg",
+      "output": "assets/personal/personal.svg",
+      "before": 967,
+      "after": 967
+    },
+    {
+      "file": "assets/personal/strap-jing.png",
+      "output": "assets/personal/strap-jing.webp",
+      "before": 2621,
+      "after": 3404
+    },
+    {
+      "file": "assets/personal/timeline.svg",
+      "output": "assets/personal/timeline.svg",
+      "before": 857,
+      "after": 857
+    },
+    {
+      "file": "assets/personal/top.svg",
+      "output": "assets/personal/top.svg",
+      "before": 1951,
+      "after": 1951
+    },
+    {
+      "file": "assets/pinan/img_pinan_1.png",
+      "output": "assets/pinan/img_pinan_1.webp",
+      "before": 365983,
+      "after": 38948
+    },
+    {
+      "file": "assets/pinan/img_pinan_10.png",
+      "output": "assets/pinan/img_pinan_10.webp",
+      "before": 692819,
+      "after": 174294
+    },
+    {
+      "file": "assets/pinan/img_pinan_11.png",
+      "output": "assets/pinan/img_pinan_11.webp",
+      "before": 489276,
+      "after": 135730
+    },
+    {
+      "file": "assets/pinan/img_pinan_12.png",
+      "output": "assets/pinan/img_pinan_12.webp",
+      "before": 555899,
+      "after": 136680
+    },
+    {
+      "file": "assets/pinan/img_pinan_2.png",
+      "output": "assets/pinan/img_pinan_2.webp",
+      "before": 515459,
+      "after": 153440
+    },
+    {
+      "file": "assets/pinan/img_pinan_3.png",
+      "output": "assets/pinan/img_pinan_3.webp",
+      "before": 874526,
+      "after": 122074
+    },
+    {
+      "file": "assets/pinan/img_pinan_4.png",
+      "output": "assets/pinan/img_pinan_4.webp",
+      "before": 647205,
+      "after": 132502
+    },
+    {
+      "file": "assets/pinan/img_pinan_5.png",
+      "output": "assets/pinan/img_pinan_5.webp",
+      "before": 1063833,
+      "after": 128022
+    },
+    {
+      "file": "assets/pinan/img_pinan_6.png",
+      "output": "assets/pinan/img_pinan_6.webp",
+      "before": 674288,
+      "after": 108526
+    },
+    {
+      "file": "assets/pinan/img_pinan_7.png",
+      "output": "assets/pinan/img_pinan_7.webp",
+      "before": 681296,
+      "after": 96198
+    },
+    {
+      "file": "assets/pinan/img_pinan_8.png",
+      "output": "assets/pinan/img_pinan_8.webp",
+      "before": 620553,
+      "after": 149140
+    },
+    {
+      "file": "assets/pinan/img_pinan_9.png",
+      "output": "assets/pinan/img_pinan_9.webp",
+      "before": 634049,
+      "after": 123370
+    },
+    {
+      "file": "assets/resume.pdf",
+      "output": "assets/resume.pdf",
+      "before": 274099,
+      "after": 274099
+    },
+    {
+      "file": "assets/school/img_school_1.png",
+      "output": "assets/school/img_school_1.webp",
+      "before": 4575224,
+      "after": 1232446
+    },
+    {
+      "file": "assets/school/img_school_2.png",
+      "output": "assets/school/img_school_2.webp",
+      "before": 5998374,
+      "after": 1485112
+    },
+    {
+      "file": "assets/school/img_school_3.png",
+      "output": "assets/school/img_school_3.webp",
+      "before": 4735023,
+      "after": 922572
+    },
+    {
+      "file": "assets/school/img_school_4.png",
+      "output": "assets/school/img_school_4.webp",
+      "before": 15441636,
+      "after": 1348742
+    },
+    {
+      "file": "assets/school/img_school_5.png",
+      "output": "assets/school/img_school_5.webp",
+      "before": 17508593,
+      "after": 1369580
+    },
+    {
+      "file": "assets/school/img_school_6.png",
+      "output": "assets/school/img_school_6.webp",
+      "before": 16565577,
+      "after": 1086226
+    },
+    {
+      "file": "assets/shipinzanhui/event.mp4",
+      "output": "assets/shipinzanhui/event.mp4",
+      "before": 66899290,
+      "after": 9874958
+    },
+    {
+      "file": "assets/shipinzanhui/img_shipinzanhui_1.png",
+      "output": "assets/shipinzanhui/img_shipinzanhui_1.webp",
+      "before": 11267781,
+      "after": 908354
+    },
+    {
+      "file": "assets/shipinzanhui/img_shipinzanhui_2.png",
+      "output": "assets/shipinzanhui/img_shipinzanhui_2.webp",
+      "before": 17649925,
+      "after": 734316
+    },
+    {
+      "file": "assets/shipinzanhui/img_shipinzanhui_3.png",
+      "output": "assets/shipinzanhui/img_shipinzanhui_3.webp",
+      "before": 1220195,
+      "after": 263944
+    },
+    {
+      "file": "assets/shipinzanhui/img_shipinzanhui_4.png",
+      "output": "assets/shipinzanhui/img_shipinzanhui_4.webp",
+      "before": 1311046,
+      "after": 319448
+    },
+    {
+      "file": "assets/tuitui/dock_folder.svg",
+      "output": "assets/tuitui/dock_folder.svg",
+      "before": 782,
+      "after": 782
+    },
+    {
+      "file": "assets/tuitui/img_tuitui_1.png",
+      "output": "assets/tuitui/img_tuitui_1.webp",
+      "before": 707590,
+      "after": 108226
+    },
+    {
+      "file": "assets/tuitui/img_tuitui_2.png",
+      "output": "assets/tuitui/img_tuitui_2.webp",
+      "before": 513436,
+      "after": 79916
+    },
+    {
+      "file": "assets/tuitui/img_tuitui_3.png",
+      "output": "assets/tuitui/img_tuitui_3.webp",
+      "before": 766757,
+      "after": 131530
+    },
+    {
+      "file": "assets/tuitui/img_tuitui_4.png",
+      "output": "assets/tuitui/img_tuitui_4.webp",
+      "before": 1608068,
+      "after": 294672
+    },
+    {
+      "file": "assets/tuitui/img_tuitui_5.png",
+      "output": "assets/tuitui/img_tuitui_5.webp",
+      "before": 1023452,
+      "after": 168166
+    },
+    {
+      "file": "assets/tuitui/img_tuitui_6.png",
+      "output": "assets/tuitui/img_tuitui_6.webp",
+      "before": 809391,
+      "after": 134714
+    },
+    {
+      "file": "assets/tuitui/img_tuitui_7.png",
+      "output": "assets/tuitui/img_tuitui_7.webp",
+      "before": 1102437,
+      "after": 189808
+    },
+    {
+      "file": "assets/tuitui/img_tuitui_8.png",
+      "output": "assets/tuitui/img_tuitui_8.webp",
+      "before": 4379471,
+      "after": 749248
+    },
+    {
+      "file": "assets/tuitui/login-motion.mp4",
+      "output": "assets/tuitui/login-motion.mp4",
+      "before": 1168881,
+      "after": 142163
+    },
+    {
+      "file": "assets/web3/img_web3_1.png",
+      "output": "assets/web3/img_web3_1.webp",
+      "before": 26344,
+      "after": 25282
+    },
+    {
+      "file": "assets/web3/img_web3_10.png",
+      "output": "assets/web3/img_web3_10.webp",
+      "before": 68324,
+      "after": 99428
+    },
+    {
+      "file": "assets/web3/img_web3_11.png",
+      "output": "assets/web3/img_web3_11.webp",
+      "before": 49840,
+      "after": 60404
+    },
+    {
+      "file": "assets/web3/img_web3_12.png",
+      "output": "assets/web3/img_web3_12.webp",
+      "before": 65348,
+      "after": 66912
+    },
+    {
+      "file": "assets/web3/img_web3_16.png",
+      "output": "assets/web3/img_web3_16.webp",
+      "before": 75690,
+      "after": 93218
+    },
+    {
+      "file": "assets/web3/img_web3_17.png",
+      "output": "assets/web3/img_web3_17.webp",
+      "before": 55184,
+      "after": 61502
+    },
+    {
+      "file": "assets/web3/img_web3_18.png",
+      "output": "assets/web3/img_web3_18.webp",
+      "before": 51871,
+      "after": 61156
+    },
+    {
+      "file": "assets/web3/img_web3_19.png",
+      "output": "assets/web3/img_web3_19.webp",
+      "before": 47743,
+      "after": 66544
+    },
+    {
+      "file": "assets/web3/img_web3_2.png",
+      "output": "assets/web3/img_web3_2.webp",
+      "before": 41266,
+      "after": 42238
+    },
+    {
+      "file": "assets/web3/img_web3_20.png",
+      "output": "assets/web3/img_web3_20.webp",
+      "before": 66418,
+      "after": 87276
+    },
+    {
+      "file": "assets/web3/img_web3_21.png",
+      "output": "assets/web3/img_web3_21.webp",
+      "before": 38068,
+      "after": 33632
+    },
+    {
+      "file": "assets/web3/img_web3_3.png",
+      "output": "assets/web3/img_web3_3.webp",
+      "before": 24970,
+      "after": 20896
+    },
+    {
+      "file": "assets/web3/img_web3_4.png",
+      "output": "assets/web3/img_web3_4.webp",
+      "before": 80546,
+      "after": 88692
+    },
+    {
+      "file": "assets/web3/img_web3_5.png",
+      "output": "assets/web3/img_web3_5.webp",
+      "before": 66376,
+      "after": 87226
+    },
+    {
+      "file": "assets/web3/img_web3_6.png",
+      "output": "assets/web3/img_web3_6.webp",
+      "before": 81402,
+      "after": 39442
+    },
+    {
+      "file": "assets/web3/img_web3_7.png",
+      "output": "assets/web3/img_web3_7.webp",
+      "before": 88751,
+      "after": 128676
+    },
+    {
+      "file": "assets/web3/img_web3_8.png",
+      "output": "assets/web3/img_web3_8.webp",
+      "before": 48893,
+      "after": 76230
+    },
+    {
+      "file": "assets/web3/img_web3_9.png",
+      "output": "assets/web3/img_web3_9.webp",
+      "before": 57734,
+      "after": 61604
+    },
+    {
+      "file": "assets/zhitou/img_zhitou_1.png",
+      "output": "assets/zhitou/img_zhitou_1.webp",
+      "before": 1971041,
+      "after": 322946
+    },
+    {
+      "file": "assets/zhitou/img_zhitou_2.png",
+      "output": "assets/zhitou/img_zhitou_2.webp",
+      "before": 492310,
+      "after": 117216
+    },
+    {
+      "file": "assets/zhitou/img_zhitou_3.png",
+      "output": "assets/zhitou/img_zhitou_3.webp",
+      "before": 1690391,
+      "after": 311672
+    },
+    {
+      "file": "assets/zhitou/img_zhitou_4.png",
+      "output": "assets/zhitou/img_zhitou_4.webp",
+      "before": 1753690,
+      "after": 291194
+    },
+    {
+      "file": "assets/zhitou/img_zhitou_5.png",
+      "output": "assets/zhitou/img_zhitou_5.webp",
+      "before": 1640213,
+      "after": 248062
+    },
+    {
+      "file": "assets/zhitou/img_zhitou_6.png",
+      "output": "assets/zhitou/img_zhitou_6.webp",
+      "before": 4385732,
+      "after": 613694
+    },
+    {
+      "file": "assets/zhitou/img_zhitou_7.png",
+      "output": "assets/zhitou/img_zhitou_7.webp",
+      "before": 1875222,
+      "after": 292478
+    },
+    {
+      "file": "band.png",
+      "output": "band.webp",
+      "before": 7527,
+      "after": 4868
+    },
+    {
+      "file": "card-back.webp",
+      "output": "card-back.webp",
+      "before": 9590,
+      "after": 9590
+    },
+    {
+      "file": "card-front.webp",
+      "output": "card-front.webp",
+      "before": 148710,
+      "after": 148710
+    },
+    {
+      "file": "hero-entrance.js",
+      "output": "hero-entrance.js",
+      "before": 6440,
+      "after": 6584
+    },
+    {
+      "file": "index.html",
+      "output": "index.html",
+      "before": 45548,
+      "after": 46081
+    },
+    {
+      "file": "media-protection.js",
+      "output": "media-protection.js",
+      "before": 1279,
+      "after": 1308
+    },
+    {
+      "file": "personal.css",
+      "output": "personal.css",
+      "before": 4369,
+      "after": 4412
+    },
+    {
+      "file": "personal.html",
+      "output": "personal.html",
+      "before": 4346,
+      "after": 4403
+    },
+    {
+      "file": "personal.js",
+      "output": "personal.js",
+      "before": 356,
+      "after": 365
+    },
+    {
+      "file": "project.css",
+      "output": "project.css",
+      "before": 8772,
+      "after": 8857
+    },
+    {
+      "file": "project.html",
+      "output": "project.html",
+      "before": 1839,
+      "after": 1876
+    },
+    {
+      "file": "project.js",
+      "output": "project.js",
+      "before": 31906,
+      "after": 32466
+    },
+    {
+      "file": "works-data.js",
+      "output": "works-data.js",
+      "before": 2079,
+      "after": 2108
+    }
+  ],
+  "source_bytes": 558537804,
+  "compressed_bytes": 93010185
+}

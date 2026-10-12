@@ -1,0 +1,43 @@
+html:has(.personal-page) { background: #0A0A0A; }
+.personal-page { min-height: 100svh; background: #0A0A0A; font-family: 'PingFang SC', 'Project PuHuiTi', 'Microsoft YaHei', sans-serif; }
+.personal-nav { top: calc(80 * var(--u)); }
+.personal-nav .nav-folder-art { mask-image: url('assets/personal/folder-mask.svg'); -webkit-mask-image: url('assets/personal/folder-mask.svg'); }
+.personal-layout { position: relative; left: calc(-4.5 * var(--u)); display: grid; grid-template-columns: calc(558 * var(--u)) calc(1000 * var(--u)); column-gap: calc(125 * var(--u)); align-items: start; width: calc(1683 * var(--u)); margin: 0 auto; padding-top: calc(265 * var(--u)); padding-bottom: calc(85 * var(--u)); }
+/* Full-screen transparent rendering: only raycast hits on the badge capture
+   input, so the resume stays usable while the badge can swing over it. */
+.personal-art { position: fixed; inset: 0; width: 100%; height: 100svh; margin: 0; overflow: visible; z-index: 10; pointer-events: none; }
+.personal-copy { grid-column: 2; display: flex; flex-direction: column; gap: calc(24 * var(--u)); font-weight: 500; color: rgba(255,255,255,.3); }
+.personal-copy p, .personal-copy h1, .personal-copy h2 { margin: 0; }
+.personal-intro { font-size: calc(24 * var(--u)); line-height: calc(44 * var(--u)); letter-spacing: calc(1.2 * var(--u)); }
+.personal-intro span { color: rgba(255,255,255,.85); }
+.experience, .personal-skills { display: flex; flex-direction: column; gap: calc(32 * var(--u)); }
+.personal-copy h1, .personal-skills > h2 { color: #fff; font-size: calc(28 * var(--u)); line-height: 1.4; font-weight: 900; letter-spacing: calc(1.4 * var(--u)); text-align: left; }
+.experience-list { position: relative; display: flex; flex-direction: column; gap: calc(48 * var(--u)); padding-left: calc(34.286 * var(--u)); }
+.experience-timeline { position: absolute; left: 0; top: calc(31 * var(--u)); width: calc(11.429 * var(--u)); height: calc(247 * var(--u)); }
+.experience-row { display: grid; grid-template-columns: calc(102 * var(--u)) minmax(0, 1fr); gap: calc(56 * var(--u)); }
+.experience-dates, .experience-detail { display: flex; flex-direction: column; gap: calc(12 * var(--u)); }
+.experience-dates { text-align: center; }
+.experience-dates p:first-child, .experience-heading { color: rgba(255,255,255,.6); font-size: calc(24 * var(--u)); line-height: calc(34 * var(--u)); letter-spacing: calc(1.2 * var(--u)); }
+.experience-dates p:last-child, .experience-description { font-size: calc(20 * var(--u)); line-height: 1.4; letter-spacing: calc(1 * var(--u)); }
+.experience-heading { display: flex; justify-content: space-between; align-items: start; gap: calc(16 * var(--u)); white-space: nowrap; }
+.experience-heading h2 { font: inherit; }
+.skills-lines { display: flex; flex-direction: column; gap: calc(16 * var(--u)); font-size: calc(22 * var(--u)); line-height: calc(44 * var(--u)); letter-spacing: calc(1.1 * var(--u)); color: rgba(255,255,255,.6); }
+.skills-lines span { color: rgba(255,255,255,.3); }
+@media (max-width: 767px) {
+  .personal-page { min-height: 100vh; }
+  .personal-nav { top: max(16px, env(safe-area-inset-top)); }
+  .personal-layout { left: auto; width: calc(100% - 40px); grid-template-columns: minmax(0,1fr); gap: 36px; padding: 132px 0 48px; }
+  .personal-art { position: relative; inset: auto; width: calc(100% + 8px); height: auto; aspect-ratio: 558 / 687; margin: 0 -4px; }
+  .personal-copy { grid-column: 1; gap: 24px; }
+  .personal-intro { font-size: 14px; line-height: 26px; letter-spacing: .7px; }
+  .experience, .personal-skills { gap: 24px; }
+  .personal-copy h1, .personal-skills > h2 { font-size: 20px; letter-spacing: 1px; }
+  .experience-list { padding-left: 20px; gap: 32px; }
+  .experience-timeline { width: 7px; height: 100%; top: 16px; max-height: 220px; }
+  .experience-row { grid-template-columns: 65px minmax(0,1fr); gap: 16px; }
+  .experience-dates, .experience-detail { gap: 8px; }
+  .experience-dates p:first-child, .experience-heading { font-size: 14px; line-height: 22px; letter-spacing: .7px; }
+  .experience-dates p:last-child, .experience-description { font-size: 12px; line-height: 20px; letter-spacing: .6px; }
+  .experience-heading { flex-direction: column; gap: 4px; white-space: normal; }
+  .skills-lines { font-size: 13px; line-height: 26px; letter-spacing: .65px; gap: 12px; overflow-wrap: anywhere; }
+}

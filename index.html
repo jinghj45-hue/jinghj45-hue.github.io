@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="description" content="黄静的个人作品集：UI/UX、视觉设计与品牌项目。">
+  <title>Huang Jing. · Personal Work Showcase</title>
+  <script>
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.documentElement.classList.add('hero-intro-pending');
+      window.heroIntroFallback = setTimeout(() => document.documentElement.classList.remove('hero-intro-pending'), 6000);
+    }
+  </script>
+  <script src="hero-entrance.js" defer></script>
+  <script src="media-protection.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { color-scheme: dark; --page: #0a0a0a; --muted: #929292; --stage-scale: 1; }
+    * { box-sizing: border-box; }
+    html { background: var(--page); scroll-behavior: smooth; }
+    body { margin: 0; min-width: 320px; overflow-x: hidden; background: var(--page); color: #fff; font-family: '阿里巴巴普惠体 2.0 55 Regular', 'Alibaba PuHuiTi 2.0 55 Regular', 'Microsoft YaHei', 'PingFang SC', Arial, sans-serif; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    button { font: inherit; }
+    .page-viewport { width: calc(1920px * var(--stage-scale)); height: calc(var(--page-height, 5484px) * var(--stage-scale)); margin: 0 auto; position: relative; }
+    .stage { position: relative; width: 1920px; height: var(--page-height, 5484px); overflow: hidden; transform: scale(var(--stage-scale)); transform-origin: top left; background: var(--page); }
+    .hero-scene { position: absolute; z-index: 8; inset: 0 0 auto; height: 644px; isolation: isolate; }
+    .hero-intro-pending .hero-scene { visibility: hidden; }
+    .hero-scene.is-entering { pointer-events: none; }
+    .hero-scene.is-entering .scene-object { animation: none; }
+    .scene-bg { position: absolute; z-index: 0; left: 310px; top: 0; width: 1300px; height: 740px; max-width: none; pointer-events: none; }
+    .scene-object { position: absolute; z-index: 2; display: block; width: var(--w); height: var(--h); left: var(--x); top: var(--y); max-width: none; object-fit: contain; transform: translate3d(calc(var(--tx, 0px) + var(--expand-x, 0px)), calc(var(--ty, 0px) + var(--lift, 0px) + var(--expand-y, 0px)), 0) rotate(calc(var(--base-rotate, 0deg) + var(--rotate, 0deg) + var(--expand-r, 0deg))) scale(var(--zoom, 1)); transform-origin: center center; transition: transform 560ms cubic-bezier(.18,.75,.2,1), filter 400ms ease; will-change: transform; cursor: pointer; user-select: none; -webkit-user-drag: none; }
+    .scene-object:hover, .scene-object.is-hovered { --lift: -12px; --zoom: 1.035; filter: drop-shadow(0 15px 15px rgba(0,0,0,.45)); }
+    .scene-object.is-hovered:not(.software-icon):not([data-object="pc"]) { animation: object-sway 2.4s ease-in-out infinite; }
+    .scene-object[data-object="pc"] { --sway-distance: 3px; --sway-angle: .7deg; }
+    .scene-object[data-object="notebook"] { --sway-distance: 5px; --sway-angle: 1.2deg; }
+    .scene-object[data-object="pencil"] { --sway-distance: 4px; --sway-angle: 2deg; }
+    .scene-object[data-object="mouse"] { --sway-distance: 3px; --sway-angle: 1.5deg; }
+    .scene-object[data-object="headphones"] { --sway-distance: 4px; --sway-angle: 1deg; }
+    @keyframes object-sway { 0%, 100% { translate: calc(-1 * var(--sway-distance)) 0; rotate: calc(-1 * var(--sway-angle)); } 50% { translate: var(--sway-distance) 0; rotate: var(--sway-angle); } }
+    .scene-object[data-object="pc"] { z-index: 3; }
+    .scene-object[data-object="notebook"] { z-index: 4; }
+    .scene-object[data-object="pencil"] { z-index: 5; }
+    .scene-object[data-object="mouse"] { z-index: 5; }
+    .scene-object[data-object="headphones"] { z-index: 5; }
+    .software-icon { z-index: 6; }
+    .scene-spotlight { position: absolute; z-index: 7; left: 310px; top: 0; width: 1300px; height: 740px; background: radial-gradient(circle 85px at var(--spot-x, 50%) var(--spot-y, 50%), rgba(255,255,255,.12), transparent 100%), radial-gradient(circle 250px at var(--spot-x, 50%) var(--spot-y, 50%), transparent 0%, rgba(0,0,0,.32) 45%, rgba(0,0,0,.8) 100%); mask-image: url('assets/img_banner_bg@2x.webp'); mask-mode: alpha; mask-size: 100% 100%; mask-repeat: no-repeat; -webkit-mask-image: url('assets/img_banner_bg@2x.webp'); -webkit-mask-size: 100% 100%; -webkit-mask-repeat: no-repeat; pointer-events: none; opacity: 0; transition: opacity 330ms ease; }
+    .hero-scene.spotlit .scene-spotlight { opacity: 1; }
+    .hero-scene.spotlit .scene-object.is-hovered, .hero-scene.software-open .software-icon { z-index: 8; }
+    .scene-object.software-icon:hover, .scene-object.software-icon.is-hovered { filter: drop-shadow(0 8px 12px rgba(0,0,0,.7)); }
+    .hero-scene.software-open .software-icon { --zoom: .86; --lift: 0px; }
+    .hero-scene.software-open .software-icon[data-object="figma"] { --expand-x: -14px; --expand-y: -12px; --expand-r: 20deg; }
+    .hero-scene.software-open .software-icon[data-object="blender"] { --expand-x: -90px; --expand-y: -74px; }
+    .hero-scene.software-open .software-icon[data-object="ps"] { --expand-x: -34px; --expand-y: -70px; }
+    .hero-scene.software-open .software-icon[data-object="ae"] { --expand-y: 34px; --expand-r: 18deg; }
+    .hero-scene.software-open .software-icon[data-object="ai"] { --expand-x: -67px; --expand-y: 89px; --expand-r: -20deg; }
+    .software-menu { position: absolute; z-index: 9; left: 1450px; top: 398px; display: flex; flex-direction: column; gap: 0; width: 145px; color: #a5a5a5; font-size: 14px; line-height: 38px; opacity: 0; transform: translateX(-10px); pointer-events: none; transition: opacity 300ms ease, transform 300ms ease; }
+    .hero-scene.software-open .software-menu { opacity: 1; transform: none; }
+    .profile { position: absolute; z-index: 7; left: 354px; top: 652px; display: flex; align-items: flex-start; gap: 32px; width: 892px; height: 216px; }
+    .avatar-block { position: relative; width: 180px; height: 198px; flex: none; }
+    .avatar { display: block; width: 180px; height: 180px; border-radius: 32px; }
+    .location { position: absolute; top: 172px; left: 37px; height: 26px; padding: 2px 12px; display: flex; align-items: center; gap: 8px; border: 1px solid rgba(146,146,146,.2); border-radius: 16px; background: rgba(32,32,32,.9); backdrop-filter: blur(2px); color: var(--muted); font-size: 14px; white-space: nowrap; --location-step: 20px; }
+    .location img { width: 16px; height: 16px; }
+    .location-window { display: block; width: 56px; height: var(--location-step); overflow: hidden; mask-image: linear-gradient(to bottom, transparent, #000 22%, #000 78%, transparent); }
+    .location-track { display: flex; flex-direction: column; animation: location-scroll 7.2s linear infinite; }
+    .location-track span { display: block; flex: none; height: var(--location-step); line-height: var(--location-step); }
+    @keyframes location-scroll { from { transform: translateY(0); } to { transform: translateY(calc(-3 * var(--location-step))); } }
+    .profile-copy { width: 680px; flex: none; }
+    .name-svg { display: block; width: 680px; height: 128px; }
+    .roles, .contacts { display: flex; align-items: center; gap: 24px; height: 28px; color: var(--muted); font-size: 20px; line-height: 28px; white-space: nowrap; }
+    .roles { margin-top: 16px; }
+    .contacts { margin-top: 16px; }
+    .dot { display: inline-block; width: 6px; height: 6px; flex: none; border-radius: 50%; background: #929292; }
+    .contact-item { display: inline-flex; align-items: center; gap: 8px; color: inherit; text-decoration: none; }
+    .contact-item img { width: 28px; height: 28px; }
+    /* React Bits SpecularButton (JS + CSS) configuration adapted for this static page. */
+    .resume { --sb-radius: 35px; --sb-tint: #ffffff; --sb-tint-opacity: .04; --sb-text-color: #f5f5f5; --sb-line-color: #ffffff; --sb-base-color: #525252; --sb-intensity: .35; --sb-angle: 2.4rad; --sb-glow: 1; position: absolute; z-index: 7; top: 652px; left: 1299px; display: inline-flex; align-items: center; justify-content: center; height: 70px; padding: 16px 64px; border: 0; border-radius: var(--sb-radius); background: color-mix(in srgb, var(--sb-tint) calc(var(--sb-tint-opacity) * 100%), #101010); color: var(--sb-text-color); font-size: 24px; line-height: 34px; text-decoration: none; white-space: nowrap; cursor: pointer; isolation: isolate; outline: none; box-shadow: inset 0 1px 0 rgba(255,255,255,.04), 0 8px 24px rgba(0,0,0,.25); transition: background 240ms ease, color 240ms ease, transform 150ms ease; }
+    .resume::before { content: ''; position: absolute; z-index: -1; inset: -1.2px; padding: 1.2px; border-radius: calc(var(--sb-radius) + 1.2px); background: conic-gradient(from calc(var(--sb-angle) - 28deg) at 50% 50%, color-mix(in srgb, var(--sb-base-color) 48%, transparent) 0deg, color-mix(in srgb, var(--sb-line-color) calc(var(--sb-intensity) * 100%), transparent) 18deg, color-mix(in srgb, var(--sb-line-color) calc(var(--sb-intensity) * 75%), transparent) 34deg, color-mix(in srgb, var(--sb-base-color) 48%, transparent) 62deg, color-mix(in srgb, var(--sb-base-color) 48%, transparent) 180deg, color-mix(in srgb, var(--sb-line-color) calc(var(--sb-intensity) * 70%), transparent) 198deg, color-mix(in srgb, var(--sb-line-color) calc(var(--sb-intensity) * 45%), transparent) 214deg, color-mix(in srgb, var(--sb-base-color) 48%, transparent) 242deg, color-mix(in srgb, var(--sb-base-color) 48%, transparent) 360deg); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; filter: drop-shadow(0 0 calc(5px * var(--sb-glow)) color-mix(in srgb, var(--sb-line-color) calc(var(--sb-intensity) * 24%), transparent)); pointer-events: none; }
+    .resume-content { position: relative; z-index: 1; display: inline-flex; align-items: center; gap: 8px; }
+    .resume img { display: block; width: 32px; height: 32px; }
+    .resume:hover { color: #fff; transform: translateY(-4px); }
+    .resume:active { transform: translateY(-2px) scale(.97); }
+    .resume:focus-visible { outline: 2px solid color-mix(in srgb, var(--sb-text-color) 60%, transparent); outline-offset: 3px; }
+    .marquee { position: absolute; z-index: 1; left: 0; top: 970px; width: 1920px; height: 424px; overflow: hidden; }
+    .marquee-row { position: absolute; left: 0; width: max-content; display: flex; gap: 16px; height: 204px; will-change: transform; }
+    .marquee-row img { display: block; width: 292px; height: 204px; flex: none; object-fit: cover; border-radius: 10px; }
+    .marquee-row.first { top: 0; animation: marquee-left 69.5s linear infinite; }
+    .marquee-row.second { top: 220px; animation: marquee-right 69.5s linear infinite; }
+    .marquee::before, .marquee::after { content: ''; position: absolute; z-index: 2; top: 0; width: 400px; height: 424px; pointer-events: none; }
+    .marquee::before { left: 0; background: linear-gradient(90deg, #0a0a0a, rgba(10,10,10,0)); }
+    .marquee::after { right: 0; background: linear-gradient(90deg, rgba(10,10,10,0), #0a0a0a); }
+    @keyframes marquee-left { from { transform: translateX(-58px); } to { transform: translateX(-1906px); } }
+    @keyframes marquee-right { from { transform: translateX(-2090px); } to { transform: translateX(-242px); } }
+    .showcase-cue { position: absolute; z-index: 3; top: 1496px; left: 841px; width: 238px; height: 132px; display: flex; align-items: center; flex-direction: column; gap: 24px; color: var(--muted); font-size: 20px; line-height: 20px; text-decoration: none; white-space: nowrap; }
+    .showcase-cue img { width: 80px; height: 80px; animation: cue-float 3.6s ease-in-out infinite; transition: filter 300ms ease; }
+    .showcase-cue:hover img, .showcase-cue:focus-visible img { filter: brightness(1.25); }
+    @keyframes cue-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(8px); } }
+    .showcase-cue .shiny-text { display: inline-block; color: #797979; background-image: linear-gradient(#797979, #797979); background-repeat: no-repeat; background-size: 100% 100%; -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+    .works { position: absolute; z-index: 2; left: 354px; top: 1730px; width: 1212px; display: flex; align-items: flex-start; gap: 16px; }
+    .works-column { display: flex; flex-direction: column; gap: 16px; width: 598px; flex: none; }
+    .work-card { --edge-proximity: 0; --cursor-angle: 45deg; --glow-padding: 40px; --cone-spread: 25; position: relative; isolation: isolate; display: flex; flex-direction: column; align-items: stretch; width: 598px; height: auto; padding: 4px; border: 1px solid rgba(255,255,255,.1); border-radius: 21px; background: rgba(255,255,255,.02); text-align: left; cursor: pointer; overflow: visible; }
+    .work-card { --card-hover-scale: 1.02675585; --card-hover-extra: 12px; transform-origin: top center; transition: transform 260ms cubic-bezier(.2,.8,.2,1), margin-top 260ms cubic-bezier(.2,.8,.2,1); }
+    .work-card:hover, .work-card:focus-visible { z-index: 4; outline: none; transform: scale(var(--card-hover-scale)); margin-bottom: calc(var(--card-hover-extra) - 8px); }
+    .work-card:not(:first-child):hover, .work-card:not(:first-child):focus-visible { margin-top: -8px; }
+    /* React Bits Border Glow: cursor cone, mesh border and layered edge light.
+       Keep the existing surface and artwork untouched; only add edge layers. */
+    .card-border-glow, .card-edge-light { position: absolute; pointer-events: none; border-radius: inherit; transition: opacity 250ms ease-out; }
+    .card-border-glow { z-index: 3; inset: -1px; opacity: clamp(0, calc((var(--edge-proximity) - 50) / 50), 1); mask-image: conic-gradient(from var(--cursor-angle) at center, #000 calc(var(--cone-spread) * 1%), transparent calc((var(--cone-spread) + 15) * 1%), transparent calc((100 - var(--cone-spread) - 15) * 1%), #000 calc((100 - var(--cone-spread)) * 1%)); }
+    .card-border-glow::before { content: ''; position: absolute; inset: 0; padding: 1px; border-radius: inherit; background: radial-gradient(at 80% 55%, #c084fc 0px, transparent 50%), radial-gradient(at 69% 34%, #f472b6 0px, transparent 50%), radial-gradient(at 8% 6%, #38bdf8 0px, transparent 50%), radial-gradient(at 41% 38%, #c084fc 0px, transparent 50%), radial-gradient(at 86% 85%, #f472b6 0px, transparent 50%), radial-gradient(at 82% 18%, #38bdf8 0px, transparent 50%), radial-gradient(at 51% 4%, #f472b6 0px, transparent 50%), linear-gradient(#c084fc 0 100%); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; }
+    .card-edge-light { z-index: 3; inset: calc(var(--glow-padding) * -1); opacity: clamp(0, calc((var(--edge-proximity) - 30) / 70), 1); mask-image: conic-gradient(from var(--cursor-angle) at center, #000 2.5%, transparent 10%, transparent 90%, #000 97.5%); mix-blend-mode: plus-lighter; }
+    .card-edge-light::before { content: ''; position: absolute; inset: var(--glow-padding); border-radius: inherit; box-shadow: inset 0 0 0 1px hsl(40deg 80% 80% / 100%), inset 0 0 1px 0 hsl(40deg 80% 80% / 60%), inset 0 0 3px 0 hsl(40deg 80% 80% / 50%), inset 0 0 6px 0 hsl(40deg 80% 80% / 40%), inset 0 0 15px 0 hsl(40deg 80% 80% / 30%), inset 0 0 25px 2px hsl(40deg 80% 80% / 20%), inset 0 0 50px 2px hsl(40deg 80% 80% / 10%), 0 0 1px 0 hsl(40deg 80% 80% / 60%), 0 0 3px 0 hsl(40deg 80% 80% / 50%), 0 0 6px 0 hsl(40deg 80% 80% / 40%), 0 0 15px 0 hsl(40deg 80% 80% / 30%), 0 0 25px 2px hsl(40deg 80% 80% / 20%), 0 0 50px 2px hsl(40deg 80% 80% / 10%); }
+    .work-card:not(:hover) > .card-border-glow, .work-card:not(:hover) > .card-edge-light { opacity: 0; transition: opacity 750ms ease-in-out; }
+    .card-art { position: relative; display: block; flex: none; width: 100%; height: auto; aspect-ratio: 386 / 270; overflow: hidden; border-radius: 16px; }
+    .card-art > img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .card-caption { position: absolute; z-index: 1; left: 0; right: 0; bottom: 0; display: flex; align-items: center; justify-content: space-between; gap: 8px; height: 52px; padding: 16px; color: #fff; font-size: 14px; line-height: 20px; white-space: nowrap; }
+    .card-caption::before { content: ''; position: absolute; z-index: -1; inset: 0; background: url('assets/card_overlay.webp') center / 100% 100% no-repeat; }
+    .card-caption .title { overflow: hidden; text-overflow: ellipsis; }
+    .card-caption .year { flex: none; }
+    .card-tags { position: absolute; z-index: 2; right: 20px; top: 20px; display: flex; align-items: center; gap: 16px; }
+    .tag { display: inline-flex; align-items: center; height: 26px; padding: 2px 12px; border-radius: 16px; border: 1px solid rgba(146,146,146,.2); background: rgba(32,32,32,.8); backdrop-filter: blur(2px); color: #b6b6b6; font-size: 14px; line-height: 20px; white-space: nowrap; }
+    .card-more-slot { display: block; flex: none; height: 0; overflow: hidden; opacity: 0; transition: height 260ms cubic-bezier(.2,.8,.2,1), opacity 180ms ease; }
+    .card-view-more { display: flex; align-items: center; justify-content: center; gap: 4px; width: 100%; height: 62px; margin-top: 4px; padding: 16px 0; border-radius: 16px; background: rgba(255,255,255,.02); color: #fff; font-size: 14px; font-weight: 700; line-height: 20px; transition: background-color 200ms ease, box-shadow 200ms ease; }
+    .card-view-more:hover { background: rgba(255,255,255,.12); box-shadow: inset 0 0 0 1px rgba(255,255,255,.16); }
+    .card-view-more:active { background: rgba(255,255,255,.18); }
+    .card-view-more-icon { display: block; flex: none; width: 20px; height: 20px; }
+    .work-card:hover .card-more-slot, .work-card:focus-visible .card-more-slot { height: 66px; opacity: 1; }
+    .contact-footer { position: absolute; top: 3246px; left: 0; width: 1920px; height: 220px; font-family: inherit; font-weight: 400; color: #797979; font-size: 18px; line-height: 26px; letter-spacing: 1.2px; }
+    .footer-line { position: absolute; left: 3px; top: -1px; display: block; }
+    .footer-contacts { display: flex; align-items: flex-start; justify-content: space-between; width: 1690px; margin: 48px 0 0 117px; }
+    .footer-contact { display: flex; flex-direction: column; gap: 16px; white-space: nowrap; }
+    .footer-contact:nth-child(1) { width: 157px; }
+    .footer-contact:nth-child(2) { width: 163px; }
+    .footer-contact:nth-child(3) { width: 263px; }
+    .footer-contact dt, .footer-contact dd { margin: 0; }
+    .footer-contact dt { font-weight: 400; opacity: .7; }
+    .footer-contact dd { font-weight: 400; }
+    .floating-dock { position: fixed; z-index: 15; left: 50%; bottom: max(100px, env(safe-area-inset-bottom)); transform: translateX(-50%); }
+    .dock-nav { display: flex; align-items: center; gap: 16px; padding: 12px; border: 2px solid rgba(255,255,255,.1); border-radius: 32px; background: rgba(201,201,201,.08); backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); transform: scale(var(--stage-scale)); transform-origin: center bottom; }
+    .dock-item { position: relative; display: flex; align-items: center; justify-content: center; flex: none; width: 96px; height: 96px; border: 1px solid rgba(255,255,255,.05); border-radius: 32px; background: rgba(151,151,151,.1); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); color: #fff; text-decoration: none; cursor: pointer; overflow: hidden; transition: width 360ms cubic-bezier(.22,1,.36,1); }
+    .dock-icon { display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; transition: opacity 200ms ease, transform 360ms cubic-bezier(.22,1,.36,1); pointer-events: none; }
+    .dock-icon > img { display: block; max-width: none; }
+    .dock-folder { position: relative; display: block; width: 48px; height: 48px; }
+    .dock-folder-art { position: absolute; left: 2.572px; top: 5.143px; width: 42.857px; height: 36.902px; mask-image: url('assets/dock_folder_mask.svg'); mask-size: 48px 48px; mask-position: -2.572px -5.143px; mask-repeat: no-repeat; -webkit-mask-image: url('assets/dock_folder_mask.svg'); -webkit-mask-size: 48px 48px; -webkit-mask-position: -2.572px -5.143px; -webkit-mask-repeat: no-repeat; }
+    .dock-folder-art img { display: block; max-width: none; }
+    .dock-label { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 400; line-height: 38px; white-space: nowrap; opacity: 0; transform: translateY(8px); transition: opacity 200ms ease, transform 360ms cubic-bezier(.22,1,.36,1); pointer-events: none; }
+    @media (hover: hover) { .dock-item:hover { width: 112px; } .dock-item:hover .dock-icon { opacity: 0; transform: translateY(-8px); } .dock-item:hover .dock-label { opacity: 1; transform: translateY(0); } }
+    .dock-item:focus-visible { width: 112px; outline: 2px solid rgba(255,255,255,.6); outline-offset: 3px; }
+    .dock-item:focus-visible .dock-icon { opacity: 0; transform: translateY(-8px); }
+    .dock-item:focus-visible .dock-label { opacity: 1; transform: translateY(0); }
+    .dock-item:active { background: rgba(201,201,201,.2); }
+    .toast { position: fixed; z-index: 20; left: 50%; bottom: 30px; transform: translate(-50%, 20px); padding: 10px 16px; border: 1px solid rgba(255,255,255,.2); border-radius: 12px; background: rgba(28,28,28,.95); color: #eee; font-size: 14px; opacity: 0; pointer-events: none; transition: opacity 250ms ease, transform 250ms ease; }
+    .toast.show { opacity: 1; transform: translate(-50%, 0); }
+    @media (max-width: 767px) {
+      .page-viewport { width: 100%; height: auto; }
+      .stage { width: 100%; height: auto; overflow: visible; transform: none; min-height: 100vh; }
+      .hero-scene { position: relative; height: calc(100vw * .50); width: 100%; overflow: hidden; }
+      .scene-bg { left: 0; width: 100%; height: auto; }
+      .scene-spotlight { display: none; }
+      .scene-object { left: calc(var(--x-number) * 100vw / 1920); top: calc(var(--y-number) * 100vw / 1920); width: calc(var(--w-number) * 100vw / 1920); height: calc(var(--h-number) * 100vw / 1920); }
+      .software-menu { display: none; }
+      .profile { position: relative; left: auto; top: auto; width: auto; height: auto; gap: 14px; margin: 18px 18px 0; }
+      .avatar-block { width: 68px; height: 84px; }
+      .avatar { width: 68px; height: 68px; border-radius: 14px; }
+      .location { left: -4px; top: 65px; height: 20px; gap: 3px; padding: 1px 5px; font-size: 9px; --location-step: 14px; }
+      .location img { width: 10px; height: 10px; }
+      .location-window { width: 38px; }
+      .profile-copy { width: min(100% - 82px, 680px); }
+      .name-svg { width: 100%; height: auto; aspect-ratio: 680 / 128; }
+      .roles, .contacts { height: auto; gap: 7px; flex-wrap: wrap; font-size: 10px; line-height: 16px; }
+      .roles { margin-top: 7px; }
+      .contacts { margin-top: 5px; }
+      .dot { width: 3px; height: 3px; }
+      .contact-item { gap: 4px; }
+      .contact-item img { width: 13px; height: 13px; }
+      .resume { --sb-radius: 20px; position: relative; left: auto; top: auto; width: max-content; height: 40px; margin: 22px 18px 0 auto; padding: 7px 19px; font-size: 13px; line-height: 20px; }
+      .resume-content { gap: 5px; }
+      .resume img { width: 18px; height: 18px; }
+      .marquee { position: relative; top: auto; left: auto; width: 100%; height: 186px; margin-top: 44px; }
+      .marquee-row { height: 85px; gap: 16px; }
+      .marquee-row img { width: 122px; height: 85px; border-radius: 6px; }
+      .marquee-row.second { top: 101px; }
+      .marquee::before, .marquee::after { width: 45px; height: 186px; }
+      @keyframes marquee-left { from { transform: translateX(-24px); } to { transform: translateX(-852px); } }
+      @keyframes marquee-right { from { transform: translateX(-872px); } to { transform: translateX(-44px); } }
+      .showcase-cue { position: relative; top: auto; left: auto; width: 100%; height: auto; gap: 12px; margin: 102px 0 102px; font-size: 14px; }
+      .showcase-cue img { width: 54px; height: 54px; }
+      .works { position: relative; top: auto; left: auto; width: min(100% - 24px, 640px); height: auto; margin: 0 auto 90px; gap: 16px; }
+      .works-column { width: calc((100% - 16px) / 2); gap: 16px; }
+      .work-card { width: 100%; height: auto; padding: 2px; border-radius: 10px; }
+      .card-art { width: 100%; height: auto; aspect-ratio: 386 / 270; border-radius: 7px; }
+      .card-art > img { width: 100%; height: 100%; }
+      .card-caption { height: 31px; padding: 6px; font-size: 8px; line-height: 12px; }
+      .card-caption::before { background-size: 100% 100%; }
+      .card-tags { right: 6px; top: 6px; gap: 3px; }
+      .tag { height: 16px; padding: 1px 5px; font-size: 8px; line-height: 12px; }
+      .card-view-more { height: 42px; padding: 8px 0; border-radius: 7px; font-size: 10px; line-height: 16px; }
+      .card-view-more-icon { width: 16px; height: 16px; }
+      .work-card:hover .card-more-slot, .work-card:focus-visible .card-more-slot { height: 46px; }
+      .contact-footer { position: relative; top: auto; left: auto; width: 100%; height: auto; padding: 32px 24px 48px; font-size: 12px; line-height: 20px; letter-spacing: .8px; overflow: hidden; }
+      .footer-line { left: 0; top: 0; }
+      .footer-contacts { width: 100%; margin: 0; flex-wrap: wrap; gap: 28px 40px; }
+      .footer-contact { gap: 16px; }
+      .footer-contact:nth-child(n) { width: auto; }
+      .floating-dock { bottom: calc(24px + env(safe-area-inset-bottom)); }
+      .dock-nav { transform: scale(.65); }
+    }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } .showcase-cue img { animation: none !important; } }
+  </style>
+</head>
+<body>
+  <main class="page-viewport" id="top">
+    <div class="stage">
+      <section class="hero-scene" aria-label="黄静的设计工作台">
+        <img class="scene-bg" src="assets/img_banner_bg@2x.webp" alt="" aria-hidden="true">
+        <img class="scene-object" data-object="pc" style="--x:713px;--y:63px;--w:500px;--h:470px;--x-number:713;--y-number:63;--w-number:500;--h-number:470" src="assets/icon_pc@2x.webp" alt="电脑">
+        <img class="scene-object" data-object="headphones" style="--x:1253px;--y:152px;--w:200px;--h:230px;--x-number:1253;--y-number:152;--w-number:200;--h-number:230" src="assets/icon_headphones@2x.webp" alt="耳机">
+        <img class="scene-object" data-object="notebook" style="--x:412px;--y:330px;--w:330px;--h:256px;--x-number:412;--y-number:330;--w-number:330;--h-number:256" src="assets/icon_notebook@2x.webp" alt="设计笔记本">
+        <img class="scene-object" data-object="pencil" style="--x:590px;--y:209px;--w:114px;--h:68px;--x-number:590;--y-number:209;--w-number:114;--h-number:68" src="assets/icon_pencil@2x.webp" alt="铅笔">
+        <img class="scene-object" data-object="mouse" style="--x:1235px;--y:400px;--w:88px;--h:124px;--x-number:1235;--y-number:400;--w-number:88;--h-number:124" src="assets/icon_mouse@2x.webp" alt="鼠标">
+        <img class="scene-object software-icon" data-object="figma" data-label="Figma" style="--x:1411px;--y:409px;--w:46px;--h:46px;--x-number:1411;--y-number:409;--w-number:46;--h-number:46;--base-rotate:-20deg" src="assets/icon_figma@2x.webp" alt="Figma">
+        <img class="scene-object software-icon" data-object="ae" data-label="After Effects" style="--x:1397px;--y:477px;--w:46px;--h:46px;--x-number:1397;--y-number:477;--w-number:46;--h-number:46;--base-rotate:-18deg" src="assets/icon_ae@2x.webp" alt="After Effects">
+        <img class="scene-object software-icon" data-object="ai" data-label="Illustrator" style="--x:1464px;--y:460px;--w:46px;--h:46px;--x-number:1464;--y-number:460;--w-number:46;--h-number:46;--base-rotate:20deg" src="assets/icon_ai@2x.webp" alt="Illustrator">
+        <img class="scene-object software-icon" data-object="blender" data-label="Blender" style="--x:1487px;--y:509px;--w:46px;--h:46px;--x-number:1487;--y-number:509;--w-number:46;--h-number:46" src="assets/icon_blender@2x.webp" alt="Blender">
+        <img class="scene-object software-icon" data-object="ps" data-label="Photoshop" style="--x:1431px;--y:543px;--w:46px;--h:46px;--x-number:1431;--y-number:543;--w-number:46;--h-number:46" src="assets/icon_ps@2x.webp" alt="Photoshop">
+        <span class="scene-spotlight" aria-hidden="true"></span>
+        <span class="software-menu" aria-hidden="true"><span>Figma</span><span>Blender</span><span>Photoshop</span><span>After Effects</span><span>Illustrator</span></span>
+      </section>
+
+      <section class="profile" aria-label="个人信息介绍">
+        <div class="avatar-block">
+          <img class="avatar" src="assets/img_photo@2x.webp" alt="黄静头像">
+          <span class="location"><img src="assets/icon_iocation@2x.webp" alt=""><span class="location-window"><span class="location-track"><span>福建福州</span><span aria-hidden="true">福建福州</span><span aria-hidden="true">福建福州</span><span aria-hidden="true">福建福州</span></span></span></span>
+        </div>
+        <div class="profile-copy">
+          <img class="name-svg" src="assets/img_name.svg" alt="Huang Jing.">
+          <div class="roles"><span>UI/UX设计师</span><i class="dot" aria-hidden="true"></i><span>视觉设计师</span><i class="dot" aria-hidden="true"></i><span>五年工作经验</span></div>
+          <div class="contacts">
+            <span class="contact-item"><img src="assets/icon_email@2x.webp" alt="">2691753560@qq.com</span>
+            <i class="dot" aria-hidden="true"></i>
+            <span class="contact-item"><img src="assets/icon_number@2x.webp" alt="">18060510195</span>
+          </div>
+        </div>
+      </section>
+      <a class="resume" id="resumeButton" href="assets/resume.pdf" download="黄静-5年经验-18060510195.pdf"><span class="resume-content"><img src="assets/icon_dowm@2x.webp" alt=""><span>下载简历</span></span></a>
+
+      <section class="marquee" aria-label="作品预览">
+        <div class="marquee-row first" id="marqueeFirst" aria-hidden="true"></div>
+        <div class="marquee-row second" id="marqueeSecond" aria-hidden="true"></div>
+      </section>
+      <a class="showcase-cue" href="#works" aria-label="浏览作品展示"><img src="assets/icon_drop@2x.webp" alt=""><span class="shiny-text">Personal Work Showcase</span></a>
+      <section class="works" id="works" aria-label="作品展示"></section>
+      <footer class="contact-footer" aria-label="联系方式">
+        <img class="footer-line" src="assets/footer_line.svg" alt="" aria-hidden="true">
+        <dl class="footer-contacts">
+          <div class="footer-contact"><dt>Phone</dt><dd>18060510195</dd></div>
+          <div class="footer-contact"><dt>WeChat</dt><dd>J2691753560</dd></div>
+          <div class="footer-contact"><dt>Email</dt><dd>2691753560@qq.com</dd></div>
+        </dl>
+      </footer>
+    </div>
+  </main>
+
+  <div class="floating-dock">
+    <nav class="dock-nav" aria-label="快捷导航">
+      <a class="dock-item" href="#top" aria-label="置顶"><span class="dock-icon"><img src="assets/dock_top.svg" alt=""></span><span class="dock-label" aria-hidden="true">置顶</span></a>
+      <a class="dock-item" href="#works" aria-label="作品"><span class="dock-icon"><span class="dock-folder"><span class="dock-folder-art"><img src="assets/dock_folder.svg" alt=""></span></span></span><span class="dock-label" aria-hidden="true">作品</span></a>
+      <a class="dock-item" id="dockResume" href="personal.html" aria-label="个人"><span class="dock-icon"><img src="assets/dock_resume.svg" alt=""></span><span class="dock-label" aria-hidden="true">个人</span></a>
+    </nav>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="works-data.js"></script>
+  <script>
+    // React Bits Shiny Text: default 120deg, 40% band, soft falloff,
+    // cosine easing and a two-second left-to-right sweep; no React required.
+    (() => {
+      const text = document.querySelector('.showcase-cue .shiny-text');
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+      const baseGradient = 'linear-gradient(#797979, #797979)';
+      let frame = 0;
+      let start = null;
+      let visible = false;
+      const draw = now => {
+        if (start === null) start = now;
+        const progress = ((now - start) % 2000) / 2000;
+        const position = -22 + 144 * (0.5 - Math.cos(Math.PI * progress) / 2);
+        const stops = [];
+        for (const side of [-1, 1]) {
+          for (const falloff of [0, 0.2, 0.4, 0.6, 0.8, 1]) {
+            const amount = falloff * falloff * (3 - 2 * falloff);
+            const value = Math.round(Math.pow(Math.pow(121 / 255, 2.2) * (1 - amount) + amount, 1 / 2.2) * 255);
+            stops.push([position + side * (4 + 16 * (1 - falloff)), value]);
+          }
+        }
+        stops.sort((a, b) => a[0] - b[0]);
+        text.style.backgroundImage = `linear-gradient(120deg, #797979 0%, ${stops.map(([at, value]) => `rgb(${value}, ${value}, ${value}) ${at.toFixed(2)}%`).join(', ')}, #797979 100%)`;
+        frame = requestAnimationFrame(draw);
+      };
+      const sync = () => {
+        cancelAnimationFrame(frame);
+        frame = 0;
+        start = null;
+        text.style.backgroundImage = baseGradient;
+        if (visible && !document.hidden && !reduceMotion.matches) frame = requestAnimationFrame(draw);
+      };
+      new IntersectionObserver(entries => { visible = entries.some(entry => entry.isIntersecting); sync(); }).observe(text);
+      reduceMotion.addEventListener('change', sync);
+      document.addEventListener('visibilitychange', sync);
+    })();
+    const stripOne = ['aiwonderland','2024zanhui','gonpai2.0','juguang','zhitou','shipinzanhui'];
+    const stripTwo = ['xiaoqin','web3','tuitui','manju','honbao','chondian'];
+    const works = window.portfolioWorks;
+    const asset = window.portfolioAsset;
+    const makeStrip = (id, items) => {
+      const row = document.getElementById(id);
+      [...items,...items,...items].forEach(name => {
+        const image = document.createElement('img');
+        image.loading = 'lazy'; image.decoding = 'async'; image.src = asset(name); image.alt = '';
+        row.appendChild(image);
+      });
+    };
+    makeStrip('marqueeFirst', stripOne);
+    makeStrip('marqueeSecond', stripTwo);
+
+    const grid = document.getElementById('works');
+    const workCards = [];
+    works.forEach(work => {
+      const card = document.createElement('button');
+      card.className = 'work-card'; card.type = 'button'; card.setAttribute('aria-label', `${work.title}，${work.year}`);
+      const art = document.createElement('span'); art.className = 'card-art';
+      const image = document.createElement('img'); image.src = asset(work.image); image.alt = ''; image.loading = 'lazy'; image.decoding = 'async';
+      const caption = document.createElement('span'); caption.className = 'card-caption';
+      const title = document.createElement('span'); title.className = 'title'; title.textContent = work.title;
+      const year = document.createElement('span'); year.className = 'year'; year.textContent = work.year;
+      const tags = document.createElement('span'); tags.className = 'card-tags';
+      const borderGlow = document.createElement('span'); borderGlow.className = 'card-border-glow'; borderGlow.setAttribute('aria-hidden', 'true');
+      const edgeLight = document.createElement('span'); edgeLight.className = 'card-edge-light'; edgeLight.setAttribute('aria-hidden', 'true');
+      const moreSlot = document.createElement('span'); moreSlot.className = 'card-more-slot'; moreSlot.setAttribute('aria-hidden', 'true');
+      const viewMore = document.createElement('span'); viewMore.className = 'card-view-more'; viewMore.setAttribute('aria-hidden', 'true');
+      const viewMoreText = document.createElement('span'); viewMoreText.textContent = 'View More';
+      const viewMoreIcon = document.createElement('img'); viewMoreIcon.className = 'card-view-more-icon'; viewMoreIcon.src = 'assets/icon_more.webp'; viewMoreIcon.alt = '';
+      work.tags.forEach(label => { const tag = document.createElement('span'); tag.className = 'tag'; tag.textContent = label; tags.appendChild(tag); });
+      viewMore.append(viewMoreText, viewMoreIcon);
+      moreSlot.appendChild(viewMore);
+      caption.append(title, year); art.append(image, caption); card.append(art, tags, moreSlot, borderGlow, edgeLight); workCards.push(card);
+      // Use the official normalized edge proximity and cursor angle calculations.
+      // Re-read bounds during hover so the light follows the expanding button area.
+      let glowFrame = 0;
+      let glowPointer = null;
+      const renderCardGlow = () => {
+        if (!glowPointer) return;
+        const rect = card.getBoundingClientRect();
+        const cx = rect.width / 2, cy = rect.height / 2;
+        const dx = glowPointer.x - rect.left - cx;
+        const dy = glowPointer.y - rect.top - cy;
+        const edge = Math.min(1, Math.max(Math.abs(dx) / cx, Math.abs(dy) / cy));
+        const angle = (Math.atan2(dy, dx) * 180 / Math.PI + 450) % 360;
+        card.style.setProperty('--edge-proximity', (edge * 100).toFixed(3));
+        card.style.setProperty('--cursor-angle', `${angle.toFixed(3)}deg`);
+        glowFrame = requestAnimationFrame(renderCardGlow);
+      };
+      const trackCardGlow = event => {
+        if (event.pointerType === 'touch') return;
+        glowPointer = {x: event.clientX, y: event.clientY};
+        if (!glowFrame) glowFrame = requestAnimationFrame(renderCardGlow);
+      };
+      const clearCardGlow = () => {
+        cancelAnimationFrame(glowFrame); glowFrame = 0; glowPointer = null;
+        card.style.setProperty('--edge-proximity', '0');
+      };
+      card.addEventListener('pointerenter', trackCardGlow, {passive: true});
+      card.addEventListener('pointermove', trackCardGlow, {passive: true});
+      card.addEventListener('pointerleave', clearCardGlow, {passive: true});
+      card.addEventListener('pointercancel', clearCardGlow, {passive: true});
+      card.addEventListener('click', () => {
+        location.href = `project.html?work=${encodeURIComponent(work.image)}`;
+      });
+    });
+    // Separate columns let an expanded card push only the works below it.
+    const mobileWorks = window.matchMedia('(max-width: 767px)');
+    const arrangeWorks = () => {
+      const columnCount = 2;
+      const columns = Array.from({length: columnCount}, () => {
+        const column = document.createElement('div'); column.className = 'works-column'; return column;
+      });
+      workCards.forEach((card, index) => columns[index % columnCount].appendChild(card));
+      grid.replaceChildren(...columns);
+    };
+    arrangeWorks(); mobileWorks.addEventListener('change', arrangeWorks);
+    // Expand eight pixels on each side. Reserve the scaled height so the
+    // visible gap to neighbouring cards stays eight pixels, even while open.
+    const cardSizeObserver = new ResizeObserver(entries => {
+      for (const {target: card} of entries) {
+        const width = card.offsetWidth;
+        if (!width) continue;
+        const growth = 16 / width;
+        card.style.setProperty('--card-hover-scale', String(1 + growth));
+        card.style.setProperty('--card-hover-extra', `${card.offsetHeight * growth}px`);
+      }
+    });
+    workCards.forEach(card => cardSizeObserver.observe(card));
+    // Keep the footer below the taller column, including expanded hover cards.
+    const contactFooter = document.querySelector('.contact-footer');
+    const syncWorksHeight = () => {
+      if (mobileWorks.matches) {
+        contactFooter.style.removeProperty('top');
+        return;
+      }
+      const footerTop = grid.offsetTop + grid.offsetHeight + 68;
+      contactFooter.style.top = `${footerTop}px`;
+      document.documentElement.style.setProperty('--page-height', `${footerTop + 220}px`);
+    };
+    new ResizeObserver(syncWorksHeight).observe(grid);
+    mobileWorks.addEventListener('change', syncWorksHeight);
+    syncWorksHeight();
+
+    const setStageScale = () => {
+      document.documentElement.style.setProperty('--stage-scale', window.innerWidth < 768 ? 1 : Math.min(1, window.innerWidth / 1920));
+    };
+    setStageScale(); window.addEventListener('resize', setStageScale, {passive:true});
+
+    const scene = document.querySelector('.hero-scene');
+    const objects = [...scene.querySelectorAll('.scene-object')];
+    const spotlight = scene.querySelector('.scene-spotlight');
+    const positionSpotlight = (clientX, clientY) => {
+      const bounds = scene.getBoundingClientRect();
+      const scale = bounds.width / 1920;
+      const x = (clientX - bounds.left) / scale - 310;
+      const y = (clientY - bounds.top) / scale;
+      spotlight.style.setProperty('--spot-x', `${Math.max(0, Math.min(1300, x)).toFixed(1)}px`);
+      spotlight.style.setProperty('--spot-y', `${Math.max(0, Math.min(740, y)).toFixed(1)}px`);
+    };
+    let frame = 0;
+    scene.addEventListener('pointermove', event => {
+      positionSpotlight(event.clientX, event.clientY);
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      const sceneBounds = scene.getBoundingClientRect();
+      const sx = (event.clientX - sceneBounds.left) / sceneBounds.width * 1920;
+      const sy = (event.clientY - sceneBounds.top) / sceneBounds.width * 1920;
+      if (scene.classList.contains('software-open') && (sx < 1370 || sx > 1610 || sy < 375 || sy > 610)) {
+        scene.classList.remove('software-open','spotlit');
+        objects.forEach(item => item.classList.remove('is-hovered'));
+      }
+      if (frame) cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(() => {
+        const bounds = scene.getBoundingClientRect();
+        const nx = (event.clientX - bounds.left) / bounds.width - .5;
+        const ny = (event.clientY - bounds.top) / bounds.height - .5;
+        objects.forEach((item, index) => {
+          const depth = item.classList.contains('software-icon') ? 9 : (index === 0 ? 5 : 7);
+          item.style.setProperty('--tx', `${(nx * depth).toFixed(2)}px`);
+          item.style.setProperty('--ty', `${(ny * depth).toFixed(2)}px`);
+        });
+      });
+    });
+    scene.addEventListener('pointerleave', () => {
+      objects.forEach(item => { item.style.setProperty('--tx','0px'); item.style.setProperty('--ty','0px'); });
+      objects.forEach(item => item.classList.remove('is-hovered'));
+      scene.classList.remove('spotlit','software-open');
+    });
+    objects.forEach(item => {
+      item.addEventListener('pointerenter', event => {
+        positionSpotlight(event.clientX, event.clientY);
+        objects.forEach(other => other.classList.remove('is-hovered'));
+        item.classList.add('is-hovered');
+        scene.classList.add('spotlit');
+        if (item.classList.contains('software-icon')) {
+          scene.classList.add('software-open');
+        } else {
+          scene.classList.remove('software-open');
+        }
+      });
+      item.addEventListener('pointerleave', () => {
+        item.classList.remove('is-hovered');
+        if (!item.classList.contains('software-icon')) scene.classList.remove('spotlit');
+      });
+    });
+
+    const resumeButton = document.getElementById('resumeButton');
+    const specularSettings = { intensity: 1, idleIntensity: .35, shineSize: 10, shineFade: 34, proximity: 250, followMouse: true };
+    let specularAngle = 2.4, specularTarget = 2.4, specularStrength = specularSettings.idleIntensity, specularFrame = 0;
+    const updateSpecularButton = () => {
+      specularFrame = 0;
+      const smoothAngle = ((specularTarget - specularAngle + Math.PI * 3) % (Math.PI * 2)) - Math.PI;
+      specularAngle += smoothAngle * .18;
+      resumeButton.style.setProperty('--sb-angle', `${specularAngle}rad`);
+      resumeButton.style.setProperty('--sb-intensity', specularStrength.toFixed(3));
+    };
+    window.addEventListener('pointermove', event => {
+      if (!specularSettings.followMouse || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      const box = resumeButton.getBoundingClientRect();
+      const dx = Math.max(box.left - event.clientX, 0, event.clientX - box.right);
+      const dy = Math.max(box.top - event.clientY, 0, event.clientY - box.bottom);
+      const distance = Math.hypot(dx, dy);
+      const close = Math.max(0, 1 - distance / specularSettings.proximity);
+      const eased = close * close * (3 - 2 * close);
+      const cx = box.left + box.width / 2, cy = box.top + box.height / 2;
+      if (distance === 0) {
+        const nx = (event.clientX - cx) / (box.width / 2);
+        const ny = (cy - event.clientY) / (box.height / 2);
+        specularTarget = Math.atan2(2 / box.height, -2 / box.width) + nx * .3 + ny * .15;
+      } else {
+        specularTarget = Math.atan2(cy - event.clientY, event.clientX - cx);
+      }
+      specularStrength = specularSettings.idleIntensity + (specularSettings.intensity - specularSettings.idleIntensity) * eased;
+      if (!specularFrame) specularFrame = requestAnimationFrame(updateSpecularButton);
+    }, {passive:true});
+
+  </script>
+</body>
+</html>
