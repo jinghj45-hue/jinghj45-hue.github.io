@@ -6,9 +6,9 @@
 
 网站地址：https://jinghj45-hue.github.io/
 
-本仓库使用 `Settings → Pages → GitHub Actions` 自动发布。`portfolio.zip.part01` 至 `part04` 是完整源文件包的四个连续分卷（为满足网页上传单文件限制）。工作流 `.github/workflows/deploy.yml` 会合并、解压并发布完整网站。根目录 HTML/CSS/JS 会覆盖包内同名文件，因此直接修改这些代码后提交即可自动更新。
+本仓库使用 `Settings → Pages → GitHub Actions` 自动发布。`portfolio.zip.part01` 至 `part11` 是完整源文件包的十一个连续分卷（为满足网页上传单文件限制）。工作流 `.github/workflows/deploy.yml` 会合并、解压并发布完整网站。根目录 HTML/CSS/JS 会覆盖包内同名文件，因此直接修改这些代码后提交即可自动更新。
 
-需要编辑图片、视频或工牌 React 源码时，在本地依次合并四个分卷为 `portfolio.zip` 后解压，即可得到完整 `assets/` 与 `tools/`。Linux/macOS 命令：`cat portfolio.zip.part* > portfolio.zip`。Windows PowerShell 可使用 .NET FileStream 依次复制分卷内容。修改资源后重新生成完整 ZIP 和四个分卷并提交，或改为将解压后的资源目录直接纳入 Git 并相应调整工作流。
+需要编辑图片、视频或工牌 React 源码时，在本地依次合并十一个分卷为 `portfolio.zip` 后解压，即可得到完整 `assets/` 与 `tools/`。Linux/macOS 命令：`cat portfolio.zip.part* > portfolio.zip`。Windows PowerShell 可使用 .NET FileStream 依次复制分卷内容。修改资源后重新生成完整 ZIP 和十一个分卷并提交，或改为将解压后的资源目录直接纳入 Git 并相应调整工作流。
 
 以下是完整解压代码包的另一种部署方式，不是本仓库当前配置。
 
