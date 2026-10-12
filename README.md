@@ -2,7 +2,17 @@
 
 这是完整的静态网站，包含首页、17 个作品详情、个人页、工牌组件、图片、视频和简历 PDF。无需安装依赖或构建即可部署。
 
-## 部署到 GitHub Pages
+## 当前仓库的自动发布方式
+
+网站地址：https://jinghj45-hue.github.io/
+
+本仓库使用 `Settings → Pages → GitHub Actions` 自动发布。`portfolio.zip.part01` 至 `part04` 是完整源文件包的四个连续分卷（为满足网页上传单文件限制）。工作流 `.github/workflows/deploy.yml` 会合并、解压并发布完整网站。根目录 HTML/CSS/JS 会覆盖包内同名文件，因此直接修改这些代码后提交即可自动更新。
+
+需要编辑图片、视频或工牌 React 源码时，在本地依次合并四个分卷为 `portfolio.zip` 后解压，即可得到完整 `assets/` 与 `tools/`。Linux/macOS 命令：`cat portfolio.zip.part* > portfolio.zip`。Windows PowerShell 可使用 .NET FileStream 依次复制分卷内容。修改资源后重新生成完整 ZIP 和四个分卷并提交，或改为将解压后的资源目录直接纳入 Git 并相应调整工作流。
+
+以下是完整解压代码包的另一种部署方式，不是本仓库当前配置。
+
+## 解压代码包部署到 GitHub Pages
 
 1. 解压代码包。将**解压后文件夹里面的内容**放到仓库根目录，确保根目录直接包含 `index.html`、`project.html`、`personal.html` 和 `assets/`。不要只上传 ZIP 文件。
 2. 创建 GitHub 仓库；个人主页仓库名可用 `你的用户名.github.io`，普通仓库名称也可以。
