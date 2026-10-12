@@ -21,6 +21,7 @@ jobs:
       - name: Assemble complete website
         run: |
           cat portfolio.zip.part* > /tmp/portfolio.zip
+          echo 'fb80cac711c344899e9ccb31eb0c7b00c15d5b2e895be4771a8497e4b33ca193  /tmp/portfolio.zip' | sha256sum -c -
           python -m zipfile -e /tmp/portfolio.zip _site
           cp *.html *.css *.js _site/
       - uses: actions/configure-pages@v5
